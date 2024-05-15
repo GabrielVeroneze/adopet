@@ -38,4 +38,11 @@ export const theme: DefaultTheme = {
             extraGrande: '1.75rem',
         },
     },
+    sombras: {
+        botao: "2px 2px 4px 0px #00000040",
+        campoTexto: {
+            primaria: "0px 2px 2px 0px #00000026",
+            secundaria: "0px 2px 4px 0px #00000026",
+        }
+    }
 }
