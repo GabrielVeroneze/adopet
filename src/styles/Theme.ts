@@ -44,5 +44,15 @@ export const theme: DefaultTheme = {
             primaria: "0px 2px 2px 0px #00000026",
             secundaria: "0px 2px 4px 0px #00000026",
         }
+    },
+    espacamento: {
+        extraPequeno: "0.25rem",
+        pequeno: "0.5rem",
+        medio: "1rem",
+        medioGrande: "1.25rem",
+        grande: "1.5rem",
+        extraGrande: "2rem",
+        enorme: "2.5rem",
+        gigante: "3rem",
     }
 }
