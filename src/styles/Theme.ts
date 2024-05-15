@@ -10,11 +10,22 @@ export const theme: DefaultTheme = {
             secundaria: '#F6F6F6',
         },
         texto: {
-            aviso : '#FC7071',
+            aviso: '#FC7071',
             claro: '#FFFFFF',
-            destaque : '#3772FF',
-            escuro : '#737380',
-            placeholder : '#BCBCBC',
+            destaque: '#3772FF',
+            escuro: '#737380',
+            placeholder: '#BCBCBC',
         },
-    }
+    },
+    fontes: {
+        familia: {
+            primaria: 'Poppins',
+        },
+        peso: {
+
+        },
+        tamanho: {
+
+        },
+    },
 }
