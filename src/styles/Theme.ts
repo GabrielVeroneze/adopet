@@ -22,10 +22,20 @@ export const theme: DefaultTheme = {
             primaria: 'Poppins',
         },
         peso: {
-
+            normal: 400,
+            medium: 500,
+            semibold: 600,
+            bold: 700,
         },
         tamanho: {
-
+            muitoPequeno: '0.625rem',
+            pequeno: '0.75rem',
+            menor: '0.875rem',
+            medio: '1rem',
+            maior: '1.125rem',
+            grande: '1.375rem',
+            muitoGrande: '1.625rem',
+            extraGrande: '1.75rem',
         },
     },
 }
