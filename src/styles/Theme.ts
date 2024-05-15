@@ -39,20 +39,27 @@ export const theme: DefaultTheme = {
         },
     },
     sombras: {
-        botao: "2px 2px 4px 0px #00000040",
+        botao: '2px 2px 4px 0px #00000040',
         campoTexto: {
-            primaria: "0px 2px 2px 0px #00000026",
-            secundaria: "0px 2px 4px 0px #00000026",
-        }
+            primaria: '0px 2px 2px 0px #00000026',
+            secundaria: '0px 2px 4px 0px #00000026',
+        },
     },
     espacamento: {
-        extraPequeno: "0.25rem",
-        pequeno: "0.5rem",
-        medio: "1rem",
-        medioGrande: "1.25rem",
-        grande: "1.5rem",
-        extraGrande: "2rem",
-        enorme: "2.5rem",
-        gigante: "3rem",
-    }
+        extraPequeno: '0.25rem',
+        pequeno: '0.5rem',
+        medio: '1rem',
+        medioGrande: '1.25rem',
+        grande: '1.5rem',
+        extraGrande: '2rem',
+        enorme: '2.5rem',
+        gigante: '3rem',
+    },
+    largura: {
+        conteudo: {
+            pequeno: '312px',
+            medio: '704px',
+            grande: '1.120px',
+        },
+    },
 }
