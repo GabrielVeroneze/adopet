@@ -13,6 +13,11 @@ const GlobalStyles = createGlobalStyle`
         min-height: 100vh;
     }
 
+    body {
+        background-color: ${({ theme }) => theme.cores.fundo.primaria};
+        font-family: ${({ theme }) => theme.fontes.familia.primaria};
+    }
+
     button, input {
         border: none;
         color: inherit;
