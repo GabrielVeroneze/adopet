@@ -10,6 +10,15 @@ export const Principal = styled(BasePrincipal)`
     background-color: ${({ theme }) => theme.cores.primaria};
     display: flex;
     flex-direction: column;
+    gap: ${({ theme }) => theme.espacamento.grande};
+`
+
+export const Wrapper = styled.div`
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: ${({ theme }) => theme.espacamento.medio};
+    width: 248px;
 `
 
 export const Titulo = styled.h1`
