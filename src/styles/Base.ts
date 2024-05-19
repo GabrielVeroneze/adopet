@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, { css } from 'styled-components'
 
 export const BasePrincipal = styled.main`
     min-height: 815px;
@@ -20,4 +20,12 @@ export const BaseBotao = styled.button`
     &:hover {
         background-color: #ff9d9e;
     }
+`
+
+export const BaseTextoDestaque = css`
+    color: ${({ theme }) => theme.cores.texto.destaque};
+    font-size: ${({ theme }) => theme.fontes.tamanho.medio};
+    font-weight: ${({ theme }) => theme.fontes.peso.normal};
+    line-height: 1.25rem;
+    text-align: center;
 `
