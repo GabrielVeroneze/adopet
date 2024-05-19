@@ -43,3 +43,11 @@ export const BaseEntrada = styled.input`
     text-align: center;
     width: 100%;
 `
+
+export const BasePlaceholder = css`
+    color: ${({ theme }) => theme.cores.texto.placeholder};
+    font-size: ${({ theme }) => theme.fontes.tamanho.pequeno};
+    font-weight: ${({ theme }) => theme.fontes.peso.normal};
+    line-height: 1rem;
+    text-align: center;
+`
