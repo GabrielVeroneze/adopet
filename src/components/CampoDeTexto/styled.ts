@@ -6,6 +6,7 @@ export const CampoWrapper = styled.div`
     display: flex;
     flex-direction: column;
     gap: ${({ theme }) => theme.espacamento.extraPequeno};
+    width: 100%;
 `
 
 export const Rotulo = styled.label`
