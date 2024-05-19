@@ -29,3 +29,17 @@ export const BaseTextoDestaque = css`
     line-height: 1.25rem;
     text-align: center;
 `
+
+export const BaseEntrada = styled.input`
+    background-color: ${({ theme }) => theme.cores.fundo.secundaria};
+    border-radius: 0.375rem;
+    box-shadow: ${({ theme }) => theme.sombras.campoTexto.primaria};
+    color: ${({ theme }) => theme.cores.texto.escuro};
+    font-size: ${({ theme }) => theme.fontes.tamanho.menor};
+    font-weight: ${({ theme }) => theme.fontes.peso.normal};
+    height: 40px;
+    line-height: 1.5rem;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    width: 100%;
+`
