@@ -9,7 +9,7 @@ const Cabecalho = () => {
     const deveOcultarPerfil = ['/', '/cadastro', '/login'].includes(pathname)
 
     return (
-        <Header>
+        <Header $rotaAtual={pathname}>
             <Navegacao>
                 <Lista>
                     <Item>
