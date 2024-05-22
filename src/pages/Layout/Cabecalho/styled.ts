@@ -16,6 +16,7 @@ export const Header = styled.header<{ $rotaAtual: string }>`
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 1;
 `
 
 export const Navegacao = styled.nav`
