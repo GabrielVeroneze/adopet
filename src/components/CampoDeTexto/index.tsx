@@ -1,4 +1,5 @@
-import { CampoWrapper, Entrada, Rotulo } from './styled'
+import { useState } from 'react'
+import { BotaoVisibilidade, CampoWrapper, Entrada, Rotulo } from './styled'
 
 interface CampoDeTextoProps {
     id: string
@@ -8,10 +9,20 @@ interface CampoDeTextoProps {
 }
 
 const CampoDeTexto = ({ id, type, label, placeholder }: CampoDeTextoProps) => {
+    const [exibirSenha, setExibirSenha] = useState<boolean>(false)
+
+    const tipoInput = type === 'password' && exibirSenha ? 'text' : type
+
     return (
         <CampoWrapper>
             <Rotulo htmlFor={id}>{label}</Rotulo>
-            <Entrada id={id} type={type} placeholder={placeholder} />
+            <Entrada id={id} type={tipoInput} placeholder={placeholder} />
+            {type === 'password' && (
+                <BotaoVisibilidade
+                    $visibilidade={exibirSenha}
+                    onClick={() => setExibirSenha(!exibirSenha)}
+                />
+            )}
         </CampoWrapper>
     )
 }
