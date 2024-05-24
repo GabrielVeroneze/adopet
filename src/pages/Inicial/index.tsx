@@ -1,8 +1,11 @@
+import { useNavigate } from 'react-router-dom'
 import { Principal, Texto, Titulo, Wrapper } from './styled'
 import Botao from '@/components/Botao'
 import logo from '@/assets/images/logo-branca.svg'
 
 const Inicial = () => {
+    const navigate = useNavigate()
+
     return (
         <Principal>
             <img src={logo} alt="Logotipo da Adopet" />
@@ -14,8 +17,12 @@ const Inicial = () => {
                 </Texto>
             </Wrapper>
             <Wrapper>
-                <Botao variante="sombra">Já tenho conta</Botao>
-                <Botao variante="sombra">Quero me cadastrar</Botao>
+                <Botao variante="sombra" onClick={() => navigate('/login')}>
+                    Já tenho conta
+                </Botao>
+                <Botao variante="sombra" onClick={() => navigate('/cadastro')}>
+                    Quero me cadastrar
+                </Botao>
             </Wrapper>
         </Principal>
     )
