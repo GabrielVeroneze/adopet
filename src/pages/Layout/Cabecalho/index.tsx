@@ -21,9 +21,9 @@ const Cabecalho = () => {
                     </Item>
                     <Item>
                         <IconeLink
-                            to="/mensagem"
+                            to="/contato"
                             src={icones.mensagem}
-                            alt="Ícone de uma mensagem, representando as mensagens"
+                            alt="Ícone de uma mensagem, representando a área de contato"
                         />
                     </Item>
                     <Item>

@@ -17,7 +17,7 @@ const FichaAnimal = (props: IAnimais) => {
             <Endereco>
                 {props.cidade} ({props.estado})
             </Endereco>
-            <Contato to="/mensagem">Falar com responsável</Contato>
+            <Contato to="/contato">Falar com responsável</Contato>
         </Item>
     )
 }
