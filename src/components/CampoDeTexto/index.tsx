@@ -1,14 +1,8 @@
 import { useState } from 'react'
+import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
 import { BotaoVisibilidade, CampoWrapper, Entrada, Rotulo } from './styled'
 
-interface CampoDeTextoProps {
-    id: string
-    type: 'text' | 'email' | 'password'
-    label: string
-    placeholder: string
-}
-
-const CampoDeTexto = ({ id, type, label, placeholder }: CampoDeTextoProps) => {
+const CampoDeTexto = ({ id, type, label, placeholder }: ICampoDeEntrada) => {
     const [exibirSenha, setExibirSenha] = useState<boolean>(false)
 
     const tipoInput = type === 'password' && exibirSenha ? 'text' : type
