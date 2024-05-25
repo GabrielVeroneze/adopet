@@ -30,6 +30,16 @@ export const BaseTextoDestaque = css`
     text-align: center;
 `
 
+export const BaseFormulario = styled.form`
+    align-items: center;
+    background-color: ${({ theme }) => theme.cores.fundo.secundaria};
+    border-radius: 0.625rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: ${({ theme }) => theme.espacamento.extraGrande} 1rem;
+    width: 100%;
+`
 
 export const BaseCampoDeEntrada = css`
     background-color: ${({ theme }) => theme.cores.fundo.primaria};
