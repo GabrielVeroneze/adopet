@@ -40,3 +40,9 @@ export const BaseCampoDeEntrada = css`
     font-weight: ${({ theme }) => theme.fontes.peso.normal};
     line-height: 1.5rem;
 `
+
+export const BasePlaceholder = css`
+    color: ${({ theme }) => theme.cores.texto.placeholder};
+    font-size: ${({ theme }) => theme.fontes.tamanho.menor};
+    font-weight: ${({ theme }) => theme.fontes.peso.normal};
+`
