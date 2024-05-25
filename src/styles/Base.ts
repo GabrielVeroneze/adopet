@@ -2,7 +2,7 @@ import styled, { css } from 'styled-components'
 
 export const BasePrincipal = styled.main`
     min-height: 815px;
-    padding: 10.5rem 1.5rem 0;
+    padding: 10.5rem 1.5rem 1rem;
     width: 100%;
 `
 
