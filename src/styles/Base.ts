@@ -31,3 +31,12 @@ export const BaseTextoDestaque = css`
 `
 
 
+export const BaseCampoDeEntrada = css`
+    background-color: ${({ theme }) => theme.cores.fundo.primaria};
+    border-radius: 0.375rem;
+    box-shadow: ${({ theme }) => theme.sombras.campoTexto.secundaria};
+    color: ${({ theme }) => theme.cores.texto.escuro};
+    font-size: ${({ theme }) => theme.fontes.tamanho.menor};
+    font-weight: ${({ theme }) => theme.fontes.peso.normal};
+    line-height: 1.5rem;
+`
