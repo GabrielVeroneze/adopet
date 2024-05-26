@@ -33,6 +33,14 @@ const GlobalStyles = createGlobalStyle`
         cursor: pointer;
     }
 
+    textarea {
+        border: none;
+        font-family: inherit;
+        outline: none;
+        padding: 0;
+        resize: none;
+    }
+
     a {
         color: inherit;
         text-decoration: none;
