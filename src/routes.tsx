@@ -4,6 +4,7 @@ import Inicial from '@/pages/Inicial'
 import Cadastro from '@/pages/Cadastro'
 import Login from '@/pages/Login'
 import Home from '@/pages/Home'
+import Contato from '@/pages/Contato'
 
 const AppRoutes = () => {
     return (
@@ -14,6 +15,7 @@ const AppRoutes = () => {
                     <Route path="cadastro" element={<Cadastro />} />
                     <Route path="login" element={<Login />} />
                     <Route path="home" element={<Home />} />
+                    <Route path="contato" element={<Contato />} />
                 </Route>
             </Routes>
         </Router>
