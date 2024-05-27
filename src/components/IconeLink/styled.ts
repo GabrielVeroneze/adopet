@@ -6,3 +6,8 @@ export const CustomLink = styled(Link)`
     display: flex;
     justify-content: center;
 `
+
+export const Imagem = styled.img`
+    height: auto;
+    width: 100%;
+`

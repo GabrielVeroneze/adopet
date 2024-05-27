@@ -1,4 +1,4 @@
-import { CustomLink } from './styled'
+import { CustomLink, Imagem } from './styled'
 
 interface IconeLinkProps {
     to: string
@@ -9,7 +9,7 @@ interface IconeLinkProps {
 const IconeLink = ({ to, src, alt }: IconeLinkProps) => {
     return (
         <CustomLink to={to}>
-            <img src={src} alt={alt} />
+            <Imagem src={src} alt={alt} />
         </CustomLink>
     )
 }
