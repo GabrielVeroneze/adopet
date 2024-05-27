@@ -1,6 +1,7 @@
 import { useLocation } from 'react-router-dom'
-import { Header, Item, Lista, Navegacao } from './styled'
+import { Header, Item, Lista, Logo, Navegacao } from './styled'
 import IconeLink from '@/components/IconeLink'
+import logo from '@/assets/images/logo-cabecalho.svg'
 import icones from '@/assets/icons'
 
 const Cabecalho = () => {
@@ -12,6 +13,9 @@ const Cabecalho = () => {
         <Header $rotaAtual={pathname}>
             <Navegacao>
                 <Lista>
+                    <Item>
+                        <Logo src={logo} alt="Logotipo da Adopet" />
+                    </Item>
                     <Item>
                         <IconeLink
                             to="/home"
