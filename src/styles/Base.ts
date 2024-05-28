@@ -26,6 +26,10 @@ export const BaseBotao = styled.button`
     &:hover {
         background-color: #ff9d9e;
     }
+
+    @media ${dispositivos.tablet} {
+        font-size: ${({ theme }) => theme.fontes.tamanho.maior};
+    }
 `
 
 export const BaseTextoDestaque = css`
