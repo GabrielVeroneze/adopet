@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom'
-import { Principal, Texto, Titulo, Wrapper } from './styled'
+import { Logo, Principal, Texto, Titulo, Wrapper } from './styled'
 import Botao from '@/components/Botao'
 import logo from '@/assets/images/logo-branca.svg'
 
@@ -8,7 +8,7 @@ const Inicial = () => {
 
     return (
         <Principal>
-            <img src={logo} alt="Logotipo da Adopet" />
+            <Logo src={logo} alt="Logotipo da Adopet" />
             <Wrapper>
                 <Titulo>Boas-vindas!</Titulo>
                 <Texto>
