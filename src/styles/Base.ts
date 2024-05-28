@@ -1,9 +1,15 @@
+import { dispositivos } from '@/styles/Breakpoints'
 import styled, { css } from 'styled-components'
 
 export const BasePrincipal = styled.main`
     min-height: 815px;
     padding: 10.5rem 1.5rem 1rem;
     width: 100%;
+
+    @media ${dispositivos.tablet} {
+        min-height: 1096px;
+        padding: 17.25rem 2rem 2rem;
+    }
 `
 
 export const BaseBotao = styled.button`
