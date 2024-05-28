@@ -15,6 +15,7 @@ export const Header = styled.header<{ $rotaAtual: string }>`
         url(${imagemForma}) left top no-repeat;
     height: 295px;
     left: 0;
+    pointer-events: none;
     position: fixed;
     top: 0;
     width: 100%;
@@ -29,6 +30,7 @@ export const Header = styled.header<{ $rotaAtual: string }>`
 
 export const Navegacao = styled.nav`
     padding: 2.5rem 2.25rem 0 3rem;
+    pointer-events: auto;
 
     @media ${dispositivos.tablet} {
         padding: 3.25rem 2.625rem 0 3rem;
