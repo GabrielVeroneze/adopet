@@ -64,4 +64,8 @@ export const BotaoVisibilidade = styled.span<{ $visibilidade: boolean }>`
     position: absolute;
     right: 1rem;
     width: 18px;
+
+    @media ${dispositivos.tablet} {
+        right: 1.5rem;
+    }
 `
