@@ -1,4 +1,5 @@
 import { BasePrincipal, BaseTextoDestaque } from '@/styles/Base'
+import { dispositivos } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 
 export const Principal = styled(BasePrincipal)`
@@ -9,11 +10,20 @@ export const Principal = styled(BasePrincipal)`
     gap: ${({ theme }) => theme.espacamento.extraGrande};
     padding-left: 0;
     padding-right: 0;
+
+    @media ${dispositivos.tablet} {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
 `
 
 export const Titulo = styled.h1`
     ${BaseTextoDestaque}
     width: 226px;
+
+    @media ${dispositivos.tablet} {
+        width: 373px;
+    }
 `
 
 export const Lista = styled.ul`
@@ -22,4 +32,10 @@ export const Lista = styled.ul`
     grid-template-rows: repeat(9, 196px);
     justify-content: center;
     row-gap: 1rem;
+
+    @media ${dispositivos.tablet} {
+        gap: 1rem;
+        grid-template-columns: repeat(2, 344px);
+        grid-template-rows: repeat(5, 196px);
+    }
 `
