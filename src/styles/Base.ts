@@ -38,6 +38,11 @@ export const BaseTextoDestaque = css`
     font-weight: ${({ theme }) => theme.fontes.peso.normal};
     line-height: 1.25rem;
     text-align: center;
+
+    @media ${dispositivos.tablet} {
+        font-size: ${({ theme }) => theme.fontes.tamanho.maior};
+        line-height: 1.625rem;
+    }
 `
 
 export const BaseFormulario = styled.form`
