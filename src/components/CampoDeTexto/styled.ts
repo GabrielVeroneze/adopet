@@ -1,3 +1,4 @@
+import { dispositivos } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 import icones from '@/assets/icons'
 
@@ -8,6 +9,10 @@ export const CampoWrapper = styled.div`
     gap: ${({ theme }) => theme.espacamento.extraPequeno};
     position: relative;
     width: 100%;
+
+    @media ${dispositivos.tablet} {
+        gap: ${({ theme }) => theme.espacamento.pequeno};
+    }
 `
 
 export const Rotulo = styled.label`
@@ -15,6 +20,10 @@ export const Rotulo = styled.label`
     font-size: ${({ theme }) => theme.fontes.tamanho.medio};
     font-weight: ${({ theme }) => theme.fontes.peso.normal};
     line-height: 1.5rem;
+
+    @media ${dispositivos.tablet} {
+        font-size: ${({ theme }) => theme.fontes.tamanho.maior};
+    }
 `
 
 export const Entrada = styled.input`
@@ -34,6 +43,12 @@ export const Entrada = styled.input`
         color: ${({ theme }) => theme.cores.texto.placeholder};
         font-size: ${({ theme }) => theme.fontes.tamanho.pequeno};
         font-weight: ${({ theme }) => theme.fontes.peso.normal};
+    }
+
+    @media ${dispositivos.tablet} {
+        &::placeholder {
+            font-size: ${({ theme }) => theme.fontes.tamanho.menor};
+        }
     }
 `
 
