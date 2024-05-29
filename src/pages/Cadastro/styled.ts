@@ -11,6 +11,9 @@ export const Principal = styled(BasePrincipal)`
     gap: ${({ theme }) => theme.espacamento.grande};
 `
 
+export const Logo = styled.img`
+`
+
 export const Wrapper = styled.div`
     display: flex;
     flex-direction: column;
