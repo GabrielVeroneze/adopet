@@ -11,6 +11,9 @@ export const Principal = styled(BasePrincipal)`
     gap: ${({ theme }) => theme.espacamento.enorme};
 `
 
+export const Logo = styled.img`
+`
+
 export const Titulo = styled.h1`
     ${BaseTextoDestaque}
 `
