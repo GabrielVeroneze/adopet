@@ -4,6 +4,10 @@ import styled, { css } from 'styled-components'
 
 const BotaoNormal = css`
     width: 148px;
+
+    @media ${dispositivos.tablet} {
+        width: 164px;
+    }
 `
 
 const BotaoSombra = css`
