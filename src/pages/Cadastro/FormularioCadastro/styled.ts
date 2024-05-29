@@ -1,3 +1,4 @@
+import { dispositivos } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 
 export const Formulario = styled.form`
@@ -9,5 +10,14 @@ export const Formulario = styled.form`
 
     > :last-child {
         margin-top: 0.25rem;
+    }
+
+    @media ${dispositivos.tablet} {
+        gap: ${({ theme }) => theme.espacamento.grande};
+        width: 344px;
+
+        > :last-child {
+            margin-top: 1rem;
+        }
     }
 `
