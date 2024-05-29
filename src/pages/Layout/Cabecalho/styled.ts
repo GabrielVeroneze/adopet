@@ -22,7 +22,7 @@ export const Header = styled.header<{ $rotaAtual: string }>`
     z-index: 1;
 
     @media ${dispositivos.tablet} {
-        background-position: right top, left -2px top;
+        background-position: right top -19px, left -2px top;
         background-size: 224px, 561px;
         height: 470px;
     }
