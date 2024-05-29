@@ -1,4 +1,5 @@
 import { Link as BaseLink } from 'react-router-dom'
+import { dispositivos } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 
 export const Formulario = styled.form`
@@ -7,6 +8,10 @@ export const Formulario = styled.form`
     flex-direction: column;
     gap: ${({ theme }) => theme.espacamento.grande};
     width: 100%;
+
+    @media ${dispositivos.tablet} {
+        width: 344px;
+    }
 `
 
 export const Link = styled(BaseLink)`
@@ -17,4 +22,8 @@ export const Link = styled(BaseLink)`
     line-height: 1.5rem;
     margin-top: -1rem;
     text-decoration: underline;
+
+    @media ${dispositivos.tablet} {
+        font-size: ${({ theme }) => theme.fontes.tamanho.menor};
+    }
 `
