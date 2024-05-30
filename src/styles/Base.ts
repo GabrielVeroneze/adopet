@@ -54,6 +54,10 @@ export const BaseFormulario = styled.form`
     gap: 1rem;
     padding: ${({ theme }) => theme.espacamento.extraGrande} 1rem;
     width: 100%;
+
+    @media ${dispositivos.tablet} {
+        width: 524px;
+    }
 `
 
 export const BaseCampoDeEntrada = css`
