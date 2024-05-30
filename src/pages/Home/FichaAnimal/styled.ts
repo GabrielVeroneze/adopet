@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom'
+import { dispositivos } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 import icones from '@/assets/icons'
 
@@ -14,6 +15,10 @@ export const Item = styled.li`
         'imagem endereco'
         'imagem contato';
     padding: 1rem 1.5rem;
+
+    @media ${dispositivos.tablet} {
+        padding: 1rem;
+    }
 `
 
 export const Imagem = styled.img`
