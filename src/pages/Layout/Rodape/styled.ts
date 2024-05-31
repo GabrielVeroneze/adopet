@@ -1,3 +1,4 @@
+import { dispositivos } from '@/styles/Breakpoints'
 import styled from 'styled-components'
 
 export const Footer = styled.footer`
@@ -8,6 +9,10 @@ export const Footer = styled.footer`
     justify-content: center;
     padding: 0 ${({ theme }) => theme.espacamento.grande};
     width: 100%;
+
+    @media ${dispositivos.desktop} {
+        height: 80px;
+    }
 `
 
 export const Texto = styled.p`
