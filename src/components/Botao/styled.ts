@@ -18,6 +18,10 @@ const BotaoSombra = css`
         padding: 0.75rem;
         width: 344px;
     }
+
+    @media ${dispositivos.desktop} {
+        width: 362px;
+    }
 `
 
 export const CustomBotao = styled(BaseBotao)<{
