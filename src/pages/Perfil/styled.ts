@@ -1,11 +1,18 @@
 import { BaseFormulario, BasePrincipal, BaseTextoDestaque } from '@/styles/Base'
+import { dispositivos } from '@/styles/Breakpoints'
 import styled from 'styled-components'
+import imagemFormaInvertida from '@/assets/images/forma-lateral-invertida.svg'
 
 export const Principal = styled(BasePrincipal)`
     align-items: center;
     display: flex;
     flex-direction: column;
     gap: ${({ theme }) => theme.espacamento.grande};
+
+    @media ${dispositivos.tablet} {
+        background: url(${imagemFormaInvertida}) right top 268px / 134px 664px
+            no-repeat;
+    }
 `
 
 export const Formulario = styled(BaseFormulario)`
@@ -17,6 +24,10 @@ export const Formulario = styled(BaseFormulario)`
 export const Titulo = styled.h1`
     ${BaseTextoDestaque}
     width: 247px;
+
+    @media ${dispositivos.tablet} {
+        width: 524px;
+    }
 `
 
 export const Subtitulo = styled.h2`
