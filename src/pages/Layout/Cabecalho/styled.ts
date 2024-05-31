@@ -35,6 +35,10 @@ export const Navegacao = styled.nav`
     @media ${dispositivos.tablet} {
         padding: 3.25rem 2.625rem 0 3rem;
     }
+
+    @media ${dispositivos.desktop} {
+        padding: 2.875rem 10.875rem 0 10rem;
+    }
 `
 
 export const Lista = styled.ul`
@@ -46,6 +50,11 @@ export const Lista = styled.ul`
     @media ${dispositivos.tablet} {
         gap: 4.25rem;
         height: 48px;
+    }
+
+    @media ${dispositivos.desktop} {
+        gap: 2.5rem;
+        height: 56px;
     }
 `
 
@@ -66,6 +75,13 @@ export const Item = styled.li`
         &:last-child {
             height: 48px;
             width: 48px;
+        }
+    }
+
+    @media ${dispositivos.desktop} {
+        &:last-child {
+            height: 56px;
+            width: 56px;
         }
     }
 `
