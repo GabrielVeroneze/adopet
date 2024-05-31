@@ -10,6 +10,11 @@ export const BasePrincipal = styled.main`
         min-height: 1096px;
         padding: 17.25rem 2rem 2rem;
     }
+
+    @media ${dispositivos.desktop} {
+        min-height: 944px;
+        padding: 12.25rem 10rem 2rem;
+    }
 `
 
 export const BaseBotao = styled.button`
