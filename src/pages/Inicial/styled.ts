@@ -18,12 +18,21 @@ export const Principal = styled(BasePrincipal)`
         background-size: 134px 664px, 338px 422px;
         gap: ${({ theme }) => theme.espacamento.enorme};
     }
+
+    @media ${dispositivos.desktop} {
+        background-size: 134px 664px, 346px 431px;
+        background-position: right top 180px, bottom -22px center;
+    }
 `
 
 export const Logo = styled.img`
     @media ${dispositivos.tablet} {
         height: auto;
         width: 252px;
+    }
+
+    @media ${dispositivos.desktop} {
+        width: 260px;
     }
 `
 
@@ -40,6 +49,10 @@ export const Wrapper = styled.div`
         &:first-of-type {
             gap: ${({ theme }) => theme.espacamento.grande};
         }
+    }
+
+    @media ${dispositivos.desktop} {
+        width: 488px;
     }
 `
 
