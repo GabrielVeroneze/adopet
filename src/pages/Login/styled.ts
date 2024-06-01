@@ -17,12 +17,21 @@ export const Principal = styled(BasePrincipal)`
             664px no-repeat;
         gap: ${({ theme }) => theme.espacamento.enorme};
     }
+
+    @media ${dispositivos.desktop} {
+        background-position: right top 180px;
+        gap: ${({ theme }) => theme.espacamento.gigante};
+    }
 `
 
 export const Logo = styled.img`
     @media ${dispositivos.tablet} {
         height: auto;
         width: 252px;
+    }
+
+    @media ${dispositivos.desktop} {
+        width: 260px;
     }
 `
 
