@@ -20,4 +20,12 @@ export const Formulario = styled.form`
             margin-top: 1rem;
         }
     }
+
+    @media ${dispositivos.desktop} {
+        width: 552px;
+
+        > :last-child {
+            margin-top: 0.5rem;
+        }
+    }
 `
