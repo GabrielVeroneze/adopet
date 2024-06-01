@@ -12,6 +12,10 @@ export const Formulario = styled.form`
     @media ${dispositivos.tablet} {
         width: 344px;
     }
+
+    @media ${dispositivos.desktop} {
+        width: 552px;
+    }
 `
 
 export const Link = styled(BaseLink)`
@@ -25,5 +29,10 @@ export const Link = styled(BaseLink)`
 
     @media ${dispositivos.tablet} {
         font-size: ${({ theme }) => theme.fontes.tamanho.menor};
+    }
+
+    @media ${dispositivos.desktop} {
+        font-size: ${({ theme }) => theme.fontes.tamanho.medio};
+        margin-top: -0.75rem;
     }
 `
