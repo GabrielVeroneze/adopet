@@ -24,6 +24,10 @@ export const Rotulo = styled.label`
     @media ${dispositivos.tablet} {
         font-size: ${({ theme }) => theme.fontes.tamanho.maior};
     }
+
+    @media ${dispositivos.desktop} {
+        font-weight: ${({ theme }) => theme.fontes.peso.semibold};
+    }
 `
 
 export const Entrada = styled.input`
@@ -50,6 +54,14 @@ export const Entrada = styled.input`
             font-size: ${({ theme }) => theme.fontes.tamanho.menor};
         }
     }
+
+    @media ${dispositivos.desktop} {
+        font-size: ${({ theme }) => theme.fontes.tamanho.medio};
+
+        &::placeholder {
+            font-size: ${({ theme }) => theme.fontes.tamanho.medio};
+        }
+    }
 `
 
 export const BotaoVisibilidade = styled.span<{ $visibilidade: boolean }>`
@@ -67,5 +79,9 @@ export const BotaoVisibilidade = styled.span<{ $visibilidade: boolean }>`
 
     @media ${dispositivos.tablet} {
         right: 1.5rem;
+    }
+
+    @media ${dispositivos.desktop} {
+        right: 2rem;
     }
 `
