@@ -8,6 +8,11 @@ const BotaoNormal = css`
     @media ${dispositivos.tablet} {
         width: 164px;
     }
+
+    @media ${dispositivos.desktop} {
+        font-weight: ${({ theme }) => theme.fontes.peso.bold};
+        width: 174px;
+    }
 `
 
 const BotaoSombra = css`
