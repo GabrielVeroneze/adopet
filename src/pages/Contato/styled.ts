@@ -14,6 +14,10 @@ export const Principal = styled(BasePrincipal)`
             664px no-repeat;
         gap: ${({ theme }) => theme.espacamento.enorme};
     }
+
+    @media ${dispositivos.desktop} {
+        background-position: right top 180px;
+    }
 `
 
 export const Titulo = styled.h1`
@@ -22,6 +26,10 @@ export const Titulo = styled.h1`
 
     @media ${dispositivos.tablet} {
         width: 524px;
+    }
+
+    @media ${dispositivos.desktop} {
+        width: 492px;
     }
 `
 
