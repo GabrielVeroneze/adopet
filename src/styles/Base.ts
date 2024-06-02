@@ -63,6 +63,11 @@ export const BaseFormulario = styled.form`
     @media ${dispositivos.tablet} {
         width: 524px;
     }
+
+    @media ${dispositivos.desktop} {
+        padding: ${({ theme }) => theme.espacamento.extraGrande} 1.875rem;
+        width: 552px;
+    }
 `
 
 export const BaseCampoDeEntrada = css`
