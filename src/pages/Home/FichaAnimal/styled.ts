@@ -19,6 +19,10 @@ export const Item = styled.li`
     @media ${dispositivos.tablet} {
         padding: 1rem;
     }
+
+    @media ${dispositivos.desktop} {
+        padding: 1rem 1.5rem;
+    }
 `
 
 export const Imagem = styled.img`
