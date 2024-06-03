@@ -13,6 +13,11 @@ export const Principal = styled(BasePrincipal)`
         background: url(${imagemFormaInvertida}) right top 268px / 134px 664px
             no-repeat;
     }
+
+    @media ${dispositivos.desktop} {
+        background-position: right top 180px;
+        gap: ${({ theme }) => theme.espacamento.extraGrande};
+    }
 `
 
 export const Formulario = styled(BaseFormulario)`
@@ -27,6 +32,10 @@ export const Titulo = styled.h1`
 
     @media ${dispositivos.tablet} {
         width: 524px;
+    }
+
+    @media ${dispositivos.desktop} {
+        width: 552px;
     }
 `
 
