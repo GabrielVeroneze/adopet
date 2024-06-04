@@ -1,5 +1,5 @@
 export interface ICampoDeEntrada {
-    id: string
+    name: string
     type?: 'email' | 'password' | 'tel' | 'text'
     label: string
     placeholder: string
