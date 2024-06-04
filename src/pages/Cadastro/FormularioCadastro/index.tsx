@@ -6,25 +6,25 @@ const FormularioCadastro = () => {
     return (
         <Formulario>
             <CampoDeTexto
-                id="email"
+                name="email"
                 type="email"
                 label="Email"
                 placeholder="Escolha seu melhor email"
             />
             <CampoDeTexto
-                id="nome"
+                name="nome"
                 type="text"
                 label="Nome"
                 placeholder="Digite seu nome completo"
             />
             <CampoDeTexto
-                id="senha"
+                name="senha"
                 type="password"
                 label="Senha"
                 placeholder="Crie uma senha"
             />
             <CampoDeTexto
-                id="confirmar-senha"
+                name="confirmarSenha"
                 type="password"
                 label="Confirma sua senha"
                 placeholder="Repita a senha criada acima"

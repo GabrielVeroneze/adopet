@@ -12,25 +12,25 @@ const Contato = () => {
             </Titulo>
             <Formulario>
                 <CampoTextoFormulario
-                    id="nome"
+                    name="nome"
                     type="text"
                     label="Nome"
                     placeholder="Insira seu nome completo"
                 />
                 <CampoTextoFormulario
-                    id="telefone"
+                    name="telefone"
                     type="tel"
                     label="Telefone"
                     placeholder="Insira seu telefone e/ou whatsapp"
                 />
                 <CampoTextoFormulario
-                    id="nome-animal"
+                    name="nomeAnimal"
                     type="text"
                     label="Nome do animal"
                     placeholder="Por qual animal você se interessou?"
                 />
                 <AreaTextoFormulario
-                    id="mensagem"
+                    name="mensagem"
                     label="Mensagem"
                     placeholder="Escreva sua mensagem."
                 />

@@ -15,25 +15,25 @@ const Perfil = () => {
                 <Subtitulo>Perfil</Subtitulo>
                 <CampoUploadFoto />
                 <CampoTextoFormulario
-                    id="nome"
+                    name="nome"
                     type="text"
                     label="Nome"
                     placeholder="Digite seu nome completo"
                 />
                 <CampoTextoFormulario
-                    id="telefone"
+                    name="telefone"
                     type="tel"
                     label="Telefone"
                     placeholder="Digite seu telefone"
                 />
                 <CampoTextoFormulario
-                    id="cidade"
+                    name="cidade"
                     type="text"
                     label="Cidade"
                     placeholder="Digite o nome da sua cidade"
                 />
                 <AreaTextoFormulario
-                    id="sobre"
+                    name="sobre"
                     label="Sobre"
                     placeholder="Escreva sobre você"
                 />

@@ -6,13 +6,13 @@ const FormularioLogin = () => {
     return (
         <Formulario>
             <CampoDeTexto
-                id="email"
+                name="email"
                 type="email"
                 label="Email"
                 placeholder="Insira seu email"
             />
             <CampoDeTexto
-                id="senha"
+                name="senha"
                 type="password"
                 label="Senha"
                 placeholder="Insira sua senha"
