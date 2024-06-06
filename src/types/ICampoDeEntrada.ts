@@ -1,8 +1,9 @@
+import { UseFormRegisterReturn } from 'react-hook-form'
+
 export interface ICampoDeEntrada {
-    name: string
+    id: string
     type?: 'email' | 'password' | 'tel' | 'text'
     label: string
     placeholder: string
-    value: string | number
-    onChange: (target: HTMLInputElement | HTMLTextAreaElement) => void
+    register: UseFormRegisterReturn
 }
