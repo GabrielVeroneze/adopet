@@ -18,6 +18,7 @@ const FormularioCadastro = () => {
     const {
         register,
         handleSubmit,
+        formState: { errors },
     } = useForm<CadastroSchemaType>({
         mode: 'onTouched',
         resolver: zodResolver(cadastroSchema),
@@ -36,6 +37,7 @@ const FormularioCadastro = () => {
                 placeholder="Escolha seu melhor email"
                 register={register('email')}
             />
+            {errors.email && <p>{errors.email.message}</p>}
             <CampoDeTexto
                 id="nome"
                 type="text"
@@ -43,6 +45,7 @@ const FormularioCadastro = () => {
                 placeholder="Digite seu nome completo"
                 register={register('nome')}
             />
+            {errors.nome && <p>{errors.nome.message}</p>}
             <CampoDeTexto
                 id="senha"
                 type="password"
@@ -50,6 +53,7 @@ const FormularioCadastro = () => {
                 placeholder="Crie uma senha"
                 register={register('senha')}
             />
+            {errors.senha && <p>{errors.senha.message}</p>}
             <CampoDeTexto
                 id="confirmarSenha"
                 type="password"
@@ -57,6 +61,7 @@ const FormularioCadastro = () => {
                 placeholder="Repita a senha criada acima"
                 register={register('confirmarSenha')}
             />
+            {errors.confirmarSenha && <p>{errors.confirmarSenha.message}</p>}
             <Botao variante="normal">Cadastrar</Botao>
         </Formulario>
     )
