@@ -1,35 +1,13 @@
-import { z } from 'zod'
-import { useForm } from 'react-hook-form'
-import { zodResolver } from '@hookform/resolvers/zod'
+import { useCadastroForm } from '@/hooks/useCadastroForm'
 import { Formulario } from './styled'
 import CampoDeTexto from '@/components/CampoDeTexto'
 import Botao from '@/components/Botao'
 
-const cadastroSchema = z.object({
-    email: z.string().min(3),
-    nome: z.string().min(3),
-    senha: z.string().min(3),
-    confirmarSenha: z.string().min(3),
-})
-
-type CadastroSchemaType = z.infer<typeof cadastroSchema>
-
 const FormularioCadastro = () => {
-    const {
-        register,
-        handleSubmit,
-        formState: { errors },
-    } = useForm<CadastroSchemaType>({
-        mode: 'onTouched',
-        resolver: zodResolver(cadastroSchema),
-    })
-
-    const handleFormSubmit = (dados: CadastroSchemaType) => {
-        console.log(dados)
-    }
+    const { register, handleSubmit, errors, cadastrar } = useCadastroForm()
 
     return (
-        <Formulario onSubmit={handleSubmit(handleFormSubmit)}>
+        <Formulario onSubmit={handleSubmit(cadastrar)}>
             <CampoDeTexto
                 id="email"
                 type="email"
