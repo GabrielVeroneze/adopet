@@ -3,12 +3,11 @@ import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
 import { BotaoVisibilidade, CampoWrapper, Entrada, Rotulo } from './styled'
 
 const CampoDeTexto = ({
-    name,
+    id,
     type,
     label,
     placeholder,
-    value,
-    onChange,
+    register,
 }: ICampoDeEntrada) => {
     const [exibirSenha, setExibirSenha] = useState<boolean>(false)
 
@@ -16,14 +15,12 @@ const CampoDeTexto = ({
 
     return (
         <CampoWrapper>
-            <Rotulo htmlFor={name}>{label}</Rotulo>
+            <Rotulo htmlFor={id}>{label}</Rotulo>
             <Entrada
-                id={name}
-                name={name}
+                id={id}
                 type={tipoInput}
                 placeholder={placeholder}
-                value={value}
-                onChange={evento => onChange(evento.target)}
+                {...register}
             />
             {type === 'password' && (
                 <BotaoVisibilidade
