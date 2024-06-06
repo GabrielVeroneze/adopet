@@ -1,6 +1,7 @@
 import { useCadastroForm } from '@/hooks/useCadastroForm'
 import { Formulario } from './styled'
 import CampoDeTexto from '@/components/CampoDeTexto'
+import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
 const FormularioCadastro = () => {
@@ -15,7 +16,9 @@ const FormularioCadastro = () => {
                 placeholder="Escolha seu melhor email"
                 register={register('email')}
             />
-            {errors.email && <p>{errors.email.message}</p>}
+            {errors.email && (
+                <MensagemDeErro>{errors.email.message}</MensagemDeErro>
+            )}
             <CampoDeTexto
                 id="nome"
                 type="text"
@@ -23,7 +26,9 @@ const FormularioCadastro = () => {
                 placeholder="Digite seu nome completo"
                 register={register('nome')}
             />
-            {errors.nome && <p>{errors.nome.message}</p>}
+            {errors.nome && (
+                <MensagemDeErro>{errors.nome.message}</MensagemDeErro>
+            )}
             <CampoDeTexto
                 id="senha"
                 type="password"
@@ -31,7 +36,9 @@ const FormularioCadastro = () => {
                 placeholder="Crie uma senha"
                 register={register('senha')}
             />
-            {errors.senha && <p>{errors.senha.message}</p>}
+            {errors.senha && (
+                <MensagemDeErro>{errors.senha.message}</MensagemDeErro>
+            )}
             <CampoDeTexto
                 id="confirmarSenha"
                 type="password"
@@ -39,7 +46,9 @@ const FormularioCadastro = () => {
                 placeholder="Repita a senha criada acima"
                 register={register('confirmarSenha')}
             />
-            {errors.confirmarSenha && <p>{errors.confirmarSenha.message}</p>}
+            {errors.confirmarSenha && (
+                <MensagemDeErro>{errors.confirmarSenha.message}</MensagemDeErro>
+            )}
             <Botao variante="normal">Cadastrar</Botao>
         </Formulario>
     )
