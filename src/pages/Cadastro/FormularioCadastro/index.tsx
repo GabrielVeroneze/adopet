@@ -1,44 +1,49 @@
-import { useFormularioCadastro } from '@/hooks/useFormularioCadastro'
+import { useForm } from 'react-hook-form'
 import { Formulario } from './styled'
 import CampoDeTexto from '@/components/CampoDeTexto'
 import Botao from '@/components/Botao'
 
 const FormularioCadastro = () => {
-    const { cadastroDados, handleDadosChange } = useFormularioCadastro()
+    const {
+        register,
+        handleSubmit,
+    } = useForm({
+        mode: 'onTouched',
+    })
+
+    const handleFormSubmit = (dados) => {
+        console.log(dados)
+    }
 
     return (
-        <Formulario>
+        <Formulario onSubmit={handleSubmit(handleFormSubmit)}>
             <CampoDeTexto
-                name="email"
+                id="email"
                 type="email"
                 label="Email"
                 placeholder="Escolha seu melhor email"
-                value={cadastroDados.email}
-                onChange={handleDadosChange}
+                register={register('email')}
             />
             <CampoDeTexto
-                name="nome"
+                id="nome"
                 type="text"
                 label="Nome"
                 placeholder="Digite seu nome completo"
-                value={cadastroDados.nome}
-                onChange={handleDadosChange}
+                register={register('nome')}
             />
             <CampoDeTexto
-                name="senha"
+                id="senha"
                 type="password"
                 label="Senha"
                 placeholder="Crie uma senha"
-                value={cadastroDados.senha}
-                onChange={handleDadosChange}
+                register={register('senha')}
             />
             <CampoDeTexto
-                name="confirmarSenha"
+                id="confirmarSenha"
                 type="password"
                 label="Confirma sua senha"
                 placeholder="Repita a senha criada acima"
-                value={cadastroDados.confirmarSenha}
-                onChange={handleDadosChange}
+                register={register('confirmarSenha')}
             />
             <Botao variante="normal">Cadastrar</Botao>
         </Formulario>
