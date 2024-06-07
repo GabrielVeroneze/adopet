@@ -1,6 +1,7 @@
 import { useLoginForm } from '@/hooks/useLoginForm'
 import { Formulario, Link } from './styled'
 import CampoDeTexto from '@/components/CampoDeTexto'
+import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
 const FormularioLogin = () => {
@@ -15,6 +16,9 @@ const FormularioLogin = () => {
                 placeholder="Insira seu email"
                 register={register('email')}
             />
+            {errors.email && (
+                <MensagemDeErro>{errors.email.message}</MensagemDeErro>
+            )}
             <CampoDeTexto
                 id="senha"
                 type="password"
@@ -22,6 +26,9 @@ const FormularioLogin = () => {
                 placeholder="Insira sua senha"
                 register={register('senha')}
             />
+            {errors.senha && (
+                <MensagemDeErro>{errors.senha.message}</MensagemDeErro>
+            )}
             <Link to="#">Esqueci minha senha.</Link>
             <Botao variante="normal">Entrar</Botao>
         </Formulario>
