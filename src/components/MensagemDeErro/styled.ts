@@ -7,6 +7,7 @@ export const Mensagem = styled.span`
     font-weight: ${({ theme }) => theme.fontes.peso.normal};
     line-height: 1.5rem;
     margin-top: -1.125rem;
+    text-align: center;
 
     @media ${dispositivos.desktop} {
         font-size: ${({ theme }) => theme.fontes.tamanho.medio};
