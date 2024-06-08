@@ -1,11 +1,11 @@
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { useNavigate } from 'react-router-dom'
-import { useAutenticar } from '@/hooks/useAutenticar'
+import { useAutenticacao } from '@/hooks/useAutenticacao'
 import { CadastroSchemaType, cadastroSchema } from '@/schemas/cadastroSchema'
 
 export const useCadastroForm = () => {
-    const { fazerCadastro } = useAutenticar()
+    const { fazerCadastro } = useAutenticacao()
     const navigate = useNavigate()
 
     const {
