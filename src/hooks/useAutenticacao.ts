@@ -1,5 +1,6 @@
 import { useNavigate } from 'react-router-dom'
 import { jsonServerApi } from '@/services/api'
+import { notificarUsuario } from '@/utilities/mostrarNotificacao'
 import { IUsuario } from '@/types/IUsuario'
 
 export const useAutenticacao = () => {
@@ -17,7 +18,7 @@ export const useAutenticacao = () => {
                 navigate('/home')
             }
         } catch (error) {
-            alert('Erro ao cadastrar usuário')
+            notificarUsuario('error', 'Erro ao cadastrar usuário')
         }
     }
 
