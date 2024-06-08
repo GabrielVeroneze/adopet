@@ -1,7 +1,7 @@
 import { jsonServerApi } from '@/services/api'
 import { IUsuario } from '@/types/IUsuario'
 
-export const useAutenticar = () => {
+export const useAutenticacao = () => {
     const fazerCadastro = async ({ nome, email, senha }: IUsuario) => {
         const resposta = await jsonServerApi.post('/usuarios', {
             nome,
