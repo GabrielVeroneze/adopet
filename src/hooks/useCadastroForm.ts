@@ -1,6 +1,8 @@
 import { z } from 'zod'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
+import { useNavigate } from 'react-router-dom'
+import { useAutenticar } from '@/hooks/useAutenticar'
 
 const cadastroSchema = z
     .object({
@@ -34,6 +36,9 @@ const cadastroSchema = z
 type CadastroSchemaType = z.infer<typeof cadastroSchema>
 
 export const useCadastroForm = () => {
+    const { fazerCadastro } = useAutenticar()
+    const navigate = useNavigate()
+
     const {
         register,
         handleSubmit,
@@ -43,8 +48,14 @@ export const useCadastroForm = () => {
         resolver: zodResolver(cadastroSchema),
     })
 
-    const cadastrar = (dados: CadastroSchemaType) => {
-        console.log(dados)
+    const cadastrar = async (dados: CadastroSchemaType) => {
+        const foiCriado = await fazerCadastro(dados)
+
+        if (foiCriado) {
+            navigate('/home')
+        } else {
+            alert('Erro ao criar conta')
+        }
     }
 
     return {
