@@ -8,6 +8,7 @@ export const useAutenticacao = () => {
 
     const fazerCadastro = async ({ nome, email, senha }: IUsuario) => {
         const resposta = await jsonServerApi.post<IUsuario>('/usuarios', {
+            id: crypto.randomUUID(),
             nome,
             email,
             senha,
