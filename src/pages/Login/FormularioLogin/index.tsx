@@ -5,10 +5,10 @@ import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
 const FormularioLogin = () => {
-    const { register, handleSubmit, errors, fazerLogin } = useLoginForm()
+    const { register, handleSubmit, errors, logar } = useLoginForm()
 
     return (
-        <Formulario onSubmit={handleSubmit(fazerLogin)}>
+        <Formulario onSubmit={handleSubmit(logar)}>
             <CampoDeTexto
                 id="email"
                 type="email"
