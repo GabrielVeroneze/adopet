@@ -6,6 +6,7 @@ import Login from '@/pages/Login'
 import Home from '@/pages/Home'
 import Contato from '@/pages/Contato'
 import Perfil from '@/pages/Perfil'
+import RotaPrivada from '@/components/RotaPrivada'
 
 const AppRoutes = () => {
     return (
@@ -16,8 +17,10 @@ const AppRoutes = () => {
                     <Route path="cadastro" element={<Cadastro />} />
                     <Route path="login" element={<Login />} />
                     <Route path="home" element={<Home />} />
-                    <Route path="contato" element={<Contato />} />
-                    <Route path="perfil" element={<Perfil />} />
+                    <Route element={<RotaPrivada />}>
+                        <Route path="contato" element={<Contato />} />
+                        <Route path="perfil" element={<Perfil />} />
+                    </Route>
                 </Route>
             </Routes>
         </Router>
