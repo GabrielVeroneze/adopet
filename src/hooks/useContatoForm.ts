@@ -3,7 +3,11 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { ContatoSchemaType, contatoSchema } from '@/schemas/contatoSchema'
 
 export const useContatoForm = () => {
-    const { register, handleSubmit } = useForm<ContatoSchemaType>({
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+    } = useForm<ContatoSchemaType>({
         mode: 'onTouched',
         resolver: zodResolver(contatoSchema),
     })
@@ -15,6 +19,7 @@ export const useContatoForm = () => {
     return {
         register,
         handleSubmit,
+        errors,
         enviar,
     }
 }
