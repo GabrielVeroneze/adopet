@@ -37,4 +37,8 @@ export const Formulario = styled(BaseFormulario)`
     > :last-child {
         margin-top: 1rem;
     }
+
+    > span {
+        margin-top: -0.625rem;
+    }
 `
