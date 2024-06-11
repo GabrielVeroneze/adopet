@@ -1,3 +1,4 @@
+import { useCallback } from 'react'
 import { jsonServerApi } from '@/services/api'
 import { useUsuario } from '@/context/usuario/useUsuario'
 import { setTokenLocalStorage } from '@/utilities/tokenLocalStorage'
@@ -34,8 +35,17 @@ export const useAutenticacao = () => {
         return false
     }
 
+    const validarToken = useCallback(async (token: string) => {
+        const resposta = await jsonServerApi.get<IUsuario[]>(
+            `/usuarios?id=${token}`
+        )
+
+        return resposta.data[0]
+    }, [])
+
     return {
         fazerCadastro,
         fazerLogin,
+        validarToken,
     }
 }
