@@ -2,11 +2,20 @@ import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
 import { AreaTexto, Wrapper } from './styled'
 import LabelFormulario from '@/components/LabelFormulario'
 
-const AreaTextoFormulario = ({ id, label, placeholder }: ICampoDeEntrada) => {
+const AreaTextoFormulario = ({
+    id,
+    label,
+    placeholder,
+    register,
+}: ICampoDeEntrada) => {
     return (
         <Wrapper>
             <LabelFormulario htmlFor={id}>{label}</LabelFormulario>
-            <AreaTexto id={id} placeholder={placeholder} />
+            <AreaTexto
+                id={id}
+                placeholder={placeholder}
+                {...register}
+            />
         </Wrapper>
     )
 }
