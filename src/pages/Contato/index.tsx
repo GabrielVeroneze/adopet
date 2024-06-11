@@ -2,10 +2,11 @@ import { useContatoForm } from '@/hooks/useContatoForm'
 import { Formulario, Principal, Titulo } from './styled'
 import CampoTextoFormulario from '@/components/CampoTextoFormulario'
 import AreaTextoFormulario from '@/components/AreaTextoFormulario'
+import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
 const Contato = () => {
-    const { register, handleSubmit, enviar } = useContatoForm()
+    const { register, handleSubmit, errors, enviar } = useContatoForm()
 
     return (
         <Principal>
@@ -21,6 +22,9 @@ const Contato = () => {
                     placeholder="Insira seu nome completo"
                     register={register('nome')}
                 />
+                {errors.nome && (
+                    <MensagemDeErro>{errors.nome.message}</MensagemDeErro>
+                )}
                 <CampoTextoFormulario
                     id="telefone"
                     type="tel"
@@ -28,6 +32,9 @@ const Contato = () => {
                     placeholder="Insira seu telefone e/ou whatsapp"
                     register={register('telefone')}
                 />
+                {errors.telefone && (
+                    <MensagemDeErro>{errors.telefone.message}</MensagemDeErro>
+                )}
                 <CampoTextoFormulario
                     id="nomeAnimal"
                     type="text"
@@ -35,12 +42,18 @@ const Contato = () => {
                     placeholder="Por qual animal você se interessou?"
                     register={register('nomeAnimal')}
                 />
+                {errors.nomeAnimal && (
+                    <MensagemDeErro>{errors.nomeAnimal.message}</MensagemDeErro>
+                )}
                 <AreaTextoFormulario
                     id="mensagem"
                     label="Mensagem"
                     placeholder="Escreva sua mensagem."
                     register={register('mensagem')}
                 />
+                {errors.mensagem && (
+                    <MensagemDeErro>{errors.mensagem.message}</MensagemDeErro>
+                )}
                 <Botao variante="normal">Enviar</Botao>
             </Formulario>
         </Principal>
