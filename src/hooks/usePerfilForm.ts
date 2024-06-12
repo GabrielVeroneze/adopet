@@ -3,7 +3,11 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { PerfilSchemaType, perfilSchema } from '@/schemas/perfilSchema'
 
 export const usePerfilForm = () => {
-    const { register, handleSubmit } = useForm<PerfilSchemaType>({
+    const {
+        register,
+        handleSubmit,
+        formState: { errors },
+    } = useForm<PerfilSchemaType>({
         mode: 'onTouched',
         resolver: zodResolver(perfilSchema),
     })
@@ -15,6 +19,7 @@ export const usePerfilForm = () => {
     return {
         register,
         handleSubmit,
+        errors,
         salvar,
     }
 }
