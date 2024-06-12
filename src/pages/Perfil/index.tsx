@@ -3,10 +3,11 @@ import { Formulario, Principal, Subtitulo, Titulo } from './styled'
 import CampoUploadFoto from '@/pages/Perfil/CampoUploadFoto'
 import CampoTextoFormulario from '@/components/CampoTextoFormulario'
 import AreaTextoFormulario from '@/components/AreaTextoFormulario'
+import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
 const Perfil = () => {
-    const { register, handleSubmit, salvar } = usePerfilForm()
+    const { register, handleSubmit, errors, salvar } = usePerfilForm()
 
     return (
         <Principal>
@@ -17,6 +18,9 @@ const Perfil = () => {
             <Formulario onSubmit={handleSubmit(salvar)}>
                 <Subtitulo>Perfil</Subtitulo>
                 <CampoUploadFoto register={register('foto')} />
+                {errors.foto && (
+                    <MensagemDeErro>{errors.foto.message}</MensagemDeErro>
+                )}
                 <CampoTextoFormulario
                     id="nome"
                     type="text"
@@ -24,6 +28,9 @@ const Perfil = () => {
                     placeholder="Digite seu nome completo"
                     register={register('nome')}
                 />
+                {errors.nome && (
+                    <MensagemDeErro>{errors.nome.message}</MensagemDeErro>
+                )}
                 <CampoTextoFormulario
                     id="telefone"
                     type="tel"
@@ -31,6 +38,9 @@ const Perfil = () => {
                     placeholder="Digite seu telefone"
                     register={register('telefone')}
                 />
+                {errors.telefone && (
+                    <MensagemDeErro>{errors.telefone.message}</MensagemDeErro>
+                )}
                 <CampoTextoFormulario
                     id="cidade"
                     type="text"
@@ -38,12 +48,18 @@ const Perfil = () => {
                     placeholder="Digite o nome da sua cidade"
                     register={register('cidade')}
                 />
+                {errors.cidade && (
+                    <MensagemDeErro>{errors.cidade.message}</MensagemDeErro>
+                )}
                 <AreaTextoFormulario
                     id="sobre"
                     label="Sobre"
                     placeholder="Escreva sobre você"
                     register={register('sobre')}
                 />
+                {errors.sobre && (
+                    <MensagemDeErro>{errors.sobre.message}</MensagemDeErro>
+                )}
                 <Botao variante="normal">Salvar</Botao>
             </Formulario>
         </Principal>
