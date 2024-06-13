@@ -7,7 +7,7 @@ import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
 const Perfil = () => {
-    const { register, handleSubmit, errors, salvar } = usePerfilForm()
+    const { register, handleSubmit, watch, errors, salvar } = usePerfilForm()
 
     return (
         <Principal>
@@ -17,7 +17,10 @@ const Perfil = () => {
             </Titulo>
             <Formulario onSubmit={handleSubmit(salvar)}>
                 <Subtitulo>Perfil</Subtitulo>
-                <CampoUploadFoto register={register('foto')} />
+                <CampoUploadFoto
+                    imagem={watch('foto')}
+                    register={register('foto')}
+                />
                 {errors.foto && (
                     <MensagemDeErro>{errors.foto.message}</MensagemDeErro>
                 )}
