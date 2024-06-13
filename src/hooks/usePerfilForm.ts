@@ -6,6 +6,7 @@ export const usePerfilForm = () => {
     const {
         register,
         handleSubmit,
+        watch,
         formState: { errors },
     } = useForm<PerfilSchemaType>({
         mode: 'onTouched',
@@ -19,6 +20,7 @@ export const usePerfilForm = () => {
     return {
         register,
         handleSubmit,
+        watch,
         errors,
         salvar,
     }
