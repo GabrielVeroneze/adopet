@@ -3,7 +3,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { PerfilSchemaType, perfilSchema } from '@/schemas/perfilSchema'
 import { useUsuario } from '@/context/usuario/useUsuario'
 import { jsonServerApi } from '@/services/api'
-import { transformarImagemEmUrl } from '@/utilities/transformarImagemEmUrl'
+import { converterImagemEmBase64 } from '@/utilities/converterImagem'
 import { notificarUsuario } from '@/utilities/mostrarNotificacao'
 import { IUsuario } from '@/types/IUsuario'
 
@@ -20,15 +20,15 @@ export const usePerfilForm = () => {
         resolver: zodResolver(perfilSchema),
     })
 
-    const salvar = (dados: PerfilSchemaType) => {
-        const perfilFormatado = {
-            ...dados,
-            foto: transformarImagemEmUrl(dados.foto),
-        }
+    const salvar = async (dados: PerfilSchemaType) => {
+        const fotoFormatada = await converterImagemEmBase64(dados.foto)
 
         jsonServerApi
             .patch<IUsuario>(`/usuarios/${usuario!.id}`, {
-                perfil: perfilFormatado,
+                perfil: {
+                    ...dados,
+                    foto: fotoFormatada,
+                },
             })
             .then(resposta => {
                 setUsuario(resposta.data)
