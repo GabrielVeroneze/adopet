@@ -1,5 +1,7 @@
+import { IFoto } from './IFoto'
+
 export interface IPerfil {
-    foto: string
+    foto: IFoto
     nome: string
     telefone: string
     cidade: string
