@@ -10,6 +10,14 @@ export const converterImagemEmBase64 = (arquivo: FileList) => {
 
         reader.readAsDataURL(arquivo[0])
 
-        reader.onload = () => resolve(reader.result)
+        reader.onload = () => {
+            const base64 = reader.result
+
+            resolve({
+                base64,
+                fileName: arquivo[0].name,
+                fileType: arquivo[0].type,
+            })
+        }
     })
 }
