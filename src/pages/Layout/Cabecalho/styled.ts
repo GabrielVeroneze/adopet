@@ -64,7 +64,11 @@ export const Item = styled.li`
     }
 
     &:last-child {
+        border-radius: 50%;
+        height: 40px;
         margin-left: auto;
+        overflow: hidden;
+        width: 40px;
     }
 
     @media ${dispositivos.tablet} {
