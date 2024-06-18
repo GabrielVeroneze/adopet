@@ -1,18 +1,13 @@
-import { IFoto } from '@/types/IFoto'
-import icones from '@/assets/icons'
+import { IBase64File } from '@/types/IBase64File'
 
 export const converterImagemEmBase64 = (arquivo: FileList) => {
-    return new Promise(resolve => {
-        if (!arquivo || !arquivo[0]) {
-            resolve(icones.usuario)
-        }
-
+    return new Promise<IBase64File>(resolve => {
         const reader = new FileReader()
 
         reader.readAsDataURL(arquivo[0])
 
         reader.onload = () => {
-            const base64 = reader.result
+            const base64 = reader.result as string
 
             resolve({
                 base64,
@@ -27,7 +22,7 @@ export const converterBase64EmFile = ({
     base64,
     fileName,
     fileType,
-}: IFoto) => {
+}: IBase64File) => {
     const byteString = atob(base64.split(',')[1])
     const mimeType = base64.split(',')[0].match(/:(.*?);/)![1]
     const ab = new ArrayBuffer(byteString.length)
