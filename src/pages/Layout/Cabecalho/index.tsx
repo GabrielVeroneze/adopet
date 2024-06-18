@@ -1,11 +1,15 @@
 import { useLocation } from 'react-router-dom'
+import { useUsuario } from '@/context/usuario/useUsuario'
 import { Header, Item, Lista, Logo, Navegacao } from './styled'
 import IconeLink from '@/components/IconeLink'
 import logo from '@/assets/images/logo-cabecalho.svg'
 import icones from '@/assets/icons'
 
 const Cabecalho = () => {
+    const { usuario } = useUsuario()
     const { pathname } = useLocation()
+
+    const fotoUsuario = usuario?.perfil?.foto.base64 || icones.usuario
 
     const deveOcultarPerfil = ['/', '/cadastro', '/login'].includes(pathname)
 
@@ -34,7 +38,7 @@ const Cabecalho = () => {
                         {!deveOcultarPerfil && (
                             <IconeLink
                                 to="/perfil"
-                                src={icones.usuario}
+                                src={fotoUsuario}
                                 alt="Ícone de um usuário, representando a área de perfil"
                             />
                         )}
