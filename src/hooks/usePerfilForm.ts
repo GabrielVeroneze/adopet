@@ -3,7 +3,7 @@ import { zodResolver } from '@hookform/resolvers/zod'
 import { PerfilSchemaType, perfilSchema } from '@/schemas/perfilSchema'
 import { useUsuario } from '@/context/usuario/useUsuario'
 import { jsonServerApi } from '@/services/api'
-import { converterImagemEmBase64 } from '@/utilities/converterImagem'
+import { converterBase64EmFile, converterImagemEmBase64 } from '@/utilities/converterImagem'
 import { notificarUsuario } from '@/utilities/mostrarNotificacao'
 import { IUsuario } from '@/types/IUsuario'
 
@@ -18,6 +18,13 @@ export const usePerfilForm = () => {
     } = useForm<PerfilSchemaType>({
         mode: 'onTouched',
         resolver: zodResolver(perfilSchema),
+        defaultValues: {
+            foto: converterBase64EmFile(usuario!.perfil!.foto),
+            nome: usuario!.perfil!.nome,
+            telefone: usuario!.perfil!.telefone,
+            cidade: usuario!.perfil!.cidade,
+            sobre: usuario!.perfil!.sobre,
+        },
     })
 
     const salvar = async (dados: PerfilSchemaType) => {
