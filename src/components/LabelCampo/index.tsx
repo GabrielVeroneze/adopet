@@ -1,14 +1,14 @@
 import { Rotulo } from './styled'
 
-interface LabelFormularioProps {
+interface LabelCampoProps {
     children: string
     htmlFor?: string
 }
 
-const LabelFormulario = ({ children, htmlFor }: LabelFormularioProps) => {
+const LabelCampo = ({ children, htmlFor }: LabelCampoProps) => {
     return (
         <Rotulo htmlFor={htmlFor}>{children}</Rotulo>
     )
 }
 
-export default LabelFormulario
+export default LabelCampo
