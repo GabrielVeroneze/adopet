@@ -2,7 +2,7 @@ import { usePerfilForm } from '@/hooks/usePerfilForm'
 import { Formulario, Principal, Subtitulo, Titulo } from './styled'
 import CampoUploadFoto from '@/pages/Perfil/CampoUploadFoto'
 import CampoTextoFormulario from '@/components/CampoTextoFormulario'
-import AreaTextoFormulario from '@/components/AreaTextoFormulario'
+import AreaTexto from '@/components/AreaTexto'
 import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
@@ -54,7 +54,7 @@ const Perfil = () => {
                 {errors.cidade && (
                     <MensagemDeErro>{errors.cidade.message}</MensagemDeErro>
                 )}
-                <AreaTextoFormulario
+                <AreaTexto
                     id="sobre"
                     label="Sobre"
                     placeholder="Escreva sobre você"

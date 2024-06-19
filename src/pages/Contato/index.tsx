@@ -1,7 +1,7 @@
 import { useContatoForm } from '@/hooks/useContatoForm'
 import { Formulario, Principal, Titulo } from './styled'
 import CampoTextoFormulario from '@/components/CampoTextoFormulario'
-import AreaTextoFormulario from '@/components/AreaTextoFormulario'
+import AreaTexto from '@/components/AreaTexto'
 import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
@@ -45,7 +45,7 @@ const Contato = () => {
                 {errors.nomeAnimal && (
                     <MensagemDeErro>{errors.nomeAnimal.message}</MensagemDeErro>
                 )}
-                <AreaTextoFormulario
+                <AreaTexto
                     id="mensagem"
                     label="Mensagem"
                     placeholder="Escreva sua mensagem."
