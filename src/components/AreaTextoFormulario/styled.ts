@@ -8,7 +8,7 @@ export const Wrapper = styled.div`
     width: 100%;
 `
 
-export const AreaTexto = styled.textarea`
+export const TextArea = styled.textarea`
     ${BaseCampoDeEntrada}
     height: 172px;
     padding: 1rem;
