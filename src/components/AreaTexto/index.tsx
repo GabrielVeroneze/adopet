@@ -2,7 +2,7 @@ import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
 import { TextArea, Wrapper } from './styled'
 import LabelFormulario from '@/components/LabelFormulario'
 
-const AreaTextoFormulario = ({
+const AreaTexto = ({
     id,
     label,
     placeholder,
@@ -20,4 +20,4 @@ const AreaTextoFormulario = ({
     )
 }
 
-export default AreaTextoFormulario
+export default AreaTexto
