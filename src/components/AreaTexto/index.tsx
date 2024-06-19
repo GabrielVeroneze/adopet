@@ -1,6 +1,6 @@
 import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
 import { TextArea, Wrapper } from './styled'
-import LabelFormulario from '@/components/LabelFormulario'
+import LabelCampo from '@/components/LabelCampo'
 
 const AreaTexto = ({
     id,
@@ -10,7 +10,7 @@ const AreaTexto = ({
 }: ICampoDeEntrada) => {
     return (
         <Wrapper>
-            <LabelFormulario htmlFor={id}>{label}</LabelFormulario>
+            <LabelCampo htmlFor={id}>{label}</LabelCampo>
             <TextArea
                 id={id}
                 placeholder={placeholder}

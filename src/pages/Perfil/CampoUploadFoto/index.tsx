@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import { UseFormRegisterReturn } from 'react-hook-form'
 import { converterImagemEmBase64 } from '@/utilities/converterImagem'
 import { FotoUsuario, InputUpload, Texto, Wrapper } from './styled'
-import LabelFormulario from '@/components/LabelFormulario'
+import LabelCampo from '@/components/LabelCampo'
 import icones from '@/assets/icons'
 
 interface CampoUploadFotoProps {
@@ -27,7 +27,7 @@ const CampoUploadFoto = ({ imagem, register }: CampoUploadFotoProps) => {
 
     return (
         <Wrapper>
-            <LabelFormulario>Foto</LabelFormulario>
+            <LabelCampo>Foto</LabelCampo>
             <FotoUsuario $imagem={imagemUrl}>
                 <InputUpload accept="image/*" {...register} />
             </FotoUsuario>
