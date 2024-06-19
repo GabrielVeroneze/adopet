@@ -2,7 +2,7 @@ import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
 import { Entrada, Wrapper } from './styled'
 import LabelCampo from '@/components/LabelCampo'
 
-const CampoTextoFormulario = ({
+const CampoTexto = ({
     id,
     type,
     label,
@@ -22,4 +22,4 @@ const CampoTextoFormulario = ({
     )
 }
 
-export default CampoTextoFormulario
+export default CampoTexto
