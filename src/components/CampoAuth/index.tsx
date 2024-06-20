@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
 import { BotaoVisibilidade, CampoWrapper, Entrada, Rotulo } from './styled'
 
-const CampoDeTexto = ({
+const CampoAuth = ({
     id,
     type,
     label,
@@ -32,4 +32,4 @@ const CampoDeTexto = ({
     )
 }
 
-export default CampoDeTexto
+export default CampoAuth
