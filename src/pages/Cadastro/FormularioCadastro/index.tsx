@@ -1,6 +1,6 @@
 import { useCadastroForm } from '@/hooks/useCadastroForm'
 import { Formulario } from './styled'
-import CampoDeTexto from '@/components/CampoDeTexto'
+import CampoAuth from '@/components/CampoAuth'
 import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
@@ -9,7 +9,7 @@ const FormularioCadastro = () => {
 
     return (
         <Formulario onSubmit={handleSubmit(cadastrar)}>
-            <CampoDeTexto
+            <CampoAuth
                 id="email"
                 type="email"
                 label="Email"
@@ -19,7 +19,7 @@ const FormularioCadastro = () => {
             {errors.email && (
                 <MensagemDeErro>{errors.email.message}</MensagemDeErro>
             )}
-            <CampoDeTexto
+            <CampoAuth
                 id="nome"
                 type="text"
                 label="Nome"
@@ -29,7 +29,7 @@ const FormularioCadastro = () => {
             {errors.nome && (
                 <MensagemDeErro>{errors.nome.message}</MensagemDeErro>
             )}
-            <CampoDeTexto
+            <CampoAuth
                 id="senha"
                 type="password"
                 label="Senha"
@@ -39,7 +39,7 @@ const FormularioCadastro = () => {
             {errors.senha && (
                 <MensagemDeErro>{errors.senha.message}</MensagemDeErro>
             )}
-            <CampoDeTexto
+            <CampoAuth
                 id="confirmarSenha"
                 type="password"
                 label="Confirma sua senha"

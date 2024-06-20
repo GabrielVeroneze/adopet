@@ -1,6 +1,6 @@
 import { useLoginForm } from '@/hooks/useLoginForm'
 import { Formulario, Link } from './styled'
-import CampoDeTexto from '@/components/CampoDeTexto'
+import CampoAuth from '@/components/CampoAuth'
 import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
 
@@ -9,7 +9,7 @@ const FormularioLogin = () => {
 
     return (
         <Formulario onSubmit={handleSubmit(logar)}>
-            <CampoDeTexto
+            <CampoAuth
                 id="email"
                 type="email"
                 label="Email"
@@ -19,7 +19,7 @@ const FormularioLogin = () => {
             {errors.email && (
                 <MensagemDeErro>{errors.email.message}</MensagemDeErro>
             )}
-            <CampoDeTexto
+            <CampoAuth
                 id="senha"
                 type="password"
                 label="Senha"
