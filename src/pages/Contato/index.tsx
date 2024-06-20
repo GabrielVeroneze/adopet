@@ -1,6 +1,6 @@
 import { useContatoForm } from '@/hooks/useContatoForm'
 import { Formulario, Principal, Titulo } from './styled'
-import CampoTextoFormulario from '@/components/CampoTextoFormulario'
+import CampoTexto from '@/components/CampoTexto'
 import AreaTexto from '@/components/AreaTexto'
 import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
@@ -15,7 +15,7 @@ const Contato = () => {
                 cuidando do animal:
             </Titulo>
             <Formulario onSubmit={handleSubmit(enviar)}>
-                <CampoTextoFormulario
+                <CampoTexto
                     id="nome"
                     type="text"
                     label="Nome"
@@ -25,7 +25,7 @@ const Contato = () => {
                 {errors.nome && (
                     <MensagemDeErro>{errors.nome.message}</MensagemDeErro>
                 )}
-                <CampoTextoFormulario
+                <CampoTexto
                     id="telefone"
                     type="tel"
                     label="Telefone"
@@ -35,7 +35,7 @@ const Contato = () => {
                 {errors.telefone && (
                     <MensagemDeErro>{errors.telefone.message}</MensagemDeErro>
                 )}
-                <CampoTextoFormulario
+                <CampoTexto
                     id="nomeAnimal"
                     type="text"
                     label="Nome do animal"

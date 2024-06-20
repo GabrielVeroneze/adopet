@@ -1,7 +1,7 @@
 import { usePerfilForm } from '@/hooks/usePerfilForm'
 import { Formulario, Principal, Subtitulo, Titulo } from './styled'
 import CampoUploadFoto from '@/pages/Perfil/CampoUploadFoto'
-import CampoTextoFormulario from '@/components/CampoTextoFormulario'
+import CampoTexto from '@/components/CampoTexto'
 import AreaTexto from '@/components/AreaTexto'
 import MensagemDeErro from '@/components/MensagemDeErro'
 import Botao from '@/components/Botao'
@@ -24,7 +24,7 @@ const Perfil = () => {
                 {errors.foto && (
                     <MensagemDeErro>{errors.foto.message}</MensagemDeErro>
                 )}
-                <CampoTextoFormulario
+                <CampoTexto
                     id="nome"
                     type="text"
                     label="Nome"
@@ -34,7 +34,7 @@ const Perfil = () => {
                 {errors.nome && (
                     <MensagemDeErro>{errors.nome.message}</MensagemDeErro>
                 )}
-                <CampoTextoFormulario
+                <CampoTexto
                     id="telefone"
                     type="tel"
                     label="Telefone"
@@ -44,7 +44,7 @@ const Perfil = () => {
                 {errors.telefone && (
                     <MensagemDeErro>{errors.telefone.message}</MensagemDeErro>
                 )}
-                <CampoTextoFormulario
+                <CampoTexto
                     id="cidade"
                     type="text"
                     label="Cidade"
