@@ -1,7 +1,7 @@
 import { useLocation } from 'react-router-dom'
 import { useUsuario } from '@/context/usuario/useUsuario'
 import { Header, Item, Lista, Logo, Navegacao } from './styled'
-import IconeLink from '@/components/IconeLink'
+import IconeNavegacao from '@/components/IconeNavegacao'
 import logo from '@/assets/images/logo-cabecalho.svg'
 import icones from '@/assets/icons'
 
@@ -21,14 +21,14 @@ const Cabecalho = () => {
                         <Logo src={logo} alt="Logotipo da Adopet" />
                     </Item>
                     <Item>
-                        <IconeLink
+                        <IconeNavegacao
                             to="/home"
                             src={icones.casa}
                             alt="Ícone de uma casa, representando a página inicial"
                         />
                     </Item>
                     <Item>
-                        <IconeLink
+                        <IconeNavegacao
                             to="/contato"
                             src={icones.mensagem}
                             alt="Ícone de uma mensagem, representando a área de contato"
@@ -36,7 +36,7 @@ const Cabecalho = () => {
                     </Item>
                     <Item>
                         {!deveOcultarPerfil && (
-                            <IconeLink
+                            <IconeNavegacao
                                 to="/perfil"
                                 src={fotoUsuario}
                                 alt="Ícone de um usuário, representando a área de perfil"
