@@ -19,3 +19,7 @@ A página de cadastro é onde os novos usuários podem criar suas contas na plat
 ### Página de Login
 
 A página de login fornece uma interface para os usuários acessarem suas contas na plataforma. A página contém dois campos onde os usuários devem inserir seu email e senha. Após preencher os campos, os usuários podem clicar em "Entrar" para acessar suas contas.
+
+### Página Home
+
+A página home é o ponto central da plataforma, onde os usuários podem explorar os animais disponíveis para adoção. Nesta página, são exibidos perfis de diversos animais, cada um apresentando uma imagem, nome, idade, porte, características e localização.
