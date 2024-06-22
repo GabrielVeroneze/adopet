@@ -15,7 +15,7 @@ const CampoUploadFoto = ({ imagem, register }: CampoUploadFotoProps) => {
 
     useEffect(() => {
         const processarImagem = async () => {
-            if (imagem.length > 0) {
+            if (imagem && imagem.length > 0) {
                 const { base64 } = await converterImagemEmBase64(imagem)
                 setImagemUrl(base64)
             } else {
