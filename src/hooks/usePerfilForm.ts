@@ -10,6 +10,16 @@ import { IUsuario } from '@/types/IUsuario'
 export const usePerfilForm = () => {
     const { usuario, setUsuario } = useUsuario()
 
+    const valoresPadrao = {
+        foto: usuario?.perfil?.foto
+            ? converterBase64EmFile(usuario.perfil.foto)
+            : undefined,
+        nome: usuario?.perfil?.nome || '',
+        telefone: usuario?.perfil?.telefone || '',
+        cidade: usuario?.perfil?.cidade || '',
+        sobre: usuario?.perfil?.sobre || '',
+    }
+
     const {
         register,
         handleSubmit,
@@ -18,13 +28,7 @@ export const usePerfilForm = () => {
     } = useForm<PerfilSchemaType>({
         mode: 'onTouched',
         resolver: zodResolver(perfilSchema),
-        defaultValues: {
-            foto: converterBase64EmFile(usuario!.perfil!.foto),
-            nome: usuario!.perfil!.nome,
-            telefone: usuario!.perfil!.telefone,
-            cidade: usuario!.perfil!.cidade,
-            sobre: usuario!.perfil!.sobre,
-        },
+        defaultValues: valoresPadrao,
     })
 
     const salvar = async (dados: PerfilSchemaType) => {
