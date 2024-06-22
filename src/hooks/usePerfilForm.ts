@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { PerfilSchemaType, perfilSchema } from '@/schemas/perfilSchema'
@@ -10,26 +11,25 @@ import { IUsuario } from '@/types/IUsuario'
 export const usePerfilForm = () => {
     const { usuario, setUsuario } = useUsuario()
 
-    const valoresPadrao = {
-        foto: usuario?.perfil?.foto
-            ? converterBase64EmFile(usuario.perfil.foto)
-            : undefined,
-        nome: usuario?.perfil?.nome || '',
-        telefone: usuario?.perfil?.telefone || '',
-        cidade: usuario?.perfil?.cidade || '',
-        sobre: usuario?.perfil?.sobre || '',
-    }
-
     const {
         register,
         handleSubmit,
         watch,
+        reset,
         formState: { errors },
     } = useForm<PerfilSchemaType>({
         mode: 'onTouched',
         resolver: zodResolver(perfilSchema),
-        defaultValues: valoresPadrao,
     })
+
+    useEffect(() => {
+        if (usuario?.perfil) {
+            reset({
+                ...usuario.perfil,
+                foto: converterBase64EmFile(usuario.perfil.foto),
+            })
+        }
+    }, [usuario, reset])
 
     const salvar = async (dados: PerfilSchemaType) => {
         const fotoFormatada = await converterImagemEmBase64(dados.foto)
