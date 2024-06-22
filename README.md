@@ -11,3 +11,7 @@
 ### Página Inicial
 
 A página inicial da AdoPet é a porta de entrada da plataforma. Nesta página, os usuários podem escolher entre duas opções principais: "Já tenho conta" para acessar suas contas existentes e "Quero me cadastrar" para iniciar o processo de cadastro.
+
+### Página de Cadastro
+
+A página de cadastro é onde os novos usuários podem criar suas contas na plataforma. Nesta página, os usuários devem preencher os campos de Email, Nome e Senha. Após preencher os campos, os usuários podem finalizar o processo de registro ao clicar em "Cadastrar".
