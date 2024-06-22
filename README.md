@@ -5,3 +5,9 @@
 <p align="center">Através da AdoPet, os usuários podem interagir facilmente com representantes das ONGs, facilitando o processo de adoção e aumentando a visibilidade dos animais disponíveis para adoção.</p>
 
 <p align="center">A plataforma permite que os adotantes visualizem informações detalhadas sobre cada animal, incluindo fotos, nomes, idades, portes, características e regiões, além de possibilitar o envio de mensagens diretamente às ONGs.</p>
+
+## :building_construction: Páginas e Componentes
+
+### Página Inicial
+
+A página inicial da AdoPet é a porta de entrada da plataforma. Nesta página, os usuários podem escolher entre duas opções principais: "Já tenho conta" para acessar suas contas existentes e "Quero me cadastrar" para iniciar o processo de cadastro.
