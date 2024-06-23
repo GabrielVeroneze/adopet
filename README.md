@@ -12,22 +12,58 @@
 
 A página inicial da AdoPet é a porta de entrada da plataforma. Nesta página, os usuários podem escolher entre duas opções principais: "Já tenho conta" para acessar suas contas existentes e "Quero me cadastrar" para iniciar o processo de cadastro.
 
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="" />
+</details>
+
 ### Página de Cadastro
 
 A página de cadastro é onde os novos usuários podem criar suas contas na plataforma. Nesta página, os usuários devem preencher os campos de Email, Nome e Senha. Após preencher os campos, os usuários podem finalizar o processo de registro ao clicar em "Cadastrar".
+
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="" />
+</details>
 
 ### Página de Login
 
 A página de login fornece uma interface para os usuários acessarem suas contas na plataforma. A página contém dois campos onde os usuários devem inserir seu email e senha. Após preencher os campos, os usuários podem clicar em "Entrar" para acessar suas contas.
 
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="" />
+</details>
+
 ### Página Home
 
 A página home é o ponto central da plataforma, onde os usuários podem explorar os animais disponíveis para adoção. Nesta página, são exibidos perfis de diversos animais, cada um apresentando uma imagem, nome, idade, porte, características e localização.
+
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="" />
+</details>
 
 ### Página de Contato
 
 A página de contato possibilita os usuários se comunicar diretamente com a pessoa ou instituição responsável pelo animal. Nela, encontra-se um formulário que inclui campos para Nome, Telefone e Mensagem. Após o preenchimento, os usuários podem clicar em "Enviar" para encaminhar a mensagem ao responsável.
 
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="" />
+</details>
+
 ### Página de Perfil
 
 A página de perfil é onde os usuários podem visualizar e editar suas informações pessoais. Nesta página, os usuários encontram campos para inserir ou atualizar informações como Foto, Nome, Telefone, Cidade e Sobre. Após preencher ou atualizar os campos desejados, os usuários podem salvar suas informações clicando em "Salvar".
+
+<details>
+    <summary><b>:camera: Visualizar Screenshot</b></summary>
+    <br />
+    <img src="" />
+</details>
