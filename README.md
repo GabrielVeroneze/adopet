@@ -27,3 +27,7 @@ A página home é o ponto central da plataforma, onde os usuários podem explora
 ### Página de Contato
 
 A página de contato possibilita os usuários se comunicar diretamente com a pessoa ou instituição responsável pelo animal. Nela, encontra-se um formulário que inclui campos para Nome, Telefone e Mensagem. Após o preenchimento, os usuários podem clicar em "Enviar" para encaminhar a mensagem ao responsável.
+
+### Página de Perfil
+
+A página de perfil é onde os usuários podem visualizar e editar suas informações pessoais. Nesta página, os usuários encontram campos para inserir ou atualizar informações como Foto, Nome, Telefone, Cidade e Sobre. Após preencher ou atualizar os campos desejados, os usuários podem salvar suas informações clicando em "Salvar".
