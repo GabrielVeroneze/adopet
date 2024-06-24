@@ -88,3 +88,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Contato com o Responsável`: Permite que os usuários enviem mensagens diretamente para a pessoa ou instituição responsável pelo animal em questão, facilitando a comunicação e esclarecimento de dúvidas.
 
+### Gerenciamento de Perfil
+
+-   `Edição de Perfil`: Permite que os usuários visualizem e editem suas informações pessoais, incluindo Foto, Nome, Telefone, Cidade e uma seção "Sobre" para uma breve descrição pessoal. Inclui a funcionalidade de upload de imagem para personalizar o perfil e garante que as informações sejam salvas e atualizadas após a edição.
+
