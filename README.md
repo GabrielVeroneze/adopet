@@ -67,3 +67,10 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
     <br />
     <img src="" />
 </details>
+
+## :rocket: Funcionalidades e Recursos
+
+### Navegação e Usabilidade
+
+-   `Navegação`: Disponibiliza botões de acesso rápido para as páginas Home e Contato. Exibe um ícone de usuário quando o usuário está logado, permitindo fácil navegação entre páginas.
+
