@@ -96,3 +96,6 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Validação de Formulários`: Implementa validações em todos os formulários da plataforma para garantir o preenchimento correto dos campos. Exibe mensagens de erro quando os campos não são preenchidos adequadamente, orientando os usuários sobre como corrigir os erros.
 
+### Interface Responsiva
+
+-   `Design Responsivo`: Garante que a plataforma se adapte automaticamente a diferentes tamanhos de tela, incluindo dispositivos móveis, tablets e desktops, proporcionando uma experiência de usuário consistente e otimizada em qualquer dispositivo.
