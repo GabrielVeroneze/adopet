@@ -74,3 +74,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Navegação`: Disponibiliza botões de acesso rápido para as páginas Home e Contato. Exibe um ícone de usuário quando o usuário está logado, permitindo fácil navegação entre páginas.
 
+### Cadastro e Autenticação
+
+-   `Cadastro de Usuários`: Permite que novos usuários se cadastrem na plataforma preenchendo um formulário com os campos de Email, Nome, Senha e Confirmar Senha. Inclui funcionalidades para exibir e ocultar a senha digitada. Após o cadastro, o usuário é redirecionado automaticamente para a página de login.
+
+-   `Login de Usuários`: Permite que os usuários registrados façam login na plataforma inserindo suas credenciais (Email e Senha). Inclui um link para recuperação de senha ("Esqueci minha senha"). Após o login bem-sucedido, o usuário é direcionado para a página principal.
+
