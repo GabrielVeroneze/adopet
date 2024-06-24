@@ -80,3 +80,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Login de Usuários`: Permite que os usuários registrados façam login na plataforma inserindo suas credenciais (Email e Senha). Inclui um link para recuperação de senha ("Esqueci minha senha"). Após o login bem-sucedido, o usuário é direcionado para a página principal.
 
+### Exploração e Visualização
+
+-   `Catálogo de Animais`: Exibe uma lista de animais disponíveis para adoção, apresentando detalhes como imagem, nome, idade, porte, características, cidade/estado e um botão para contato direto com o responsável pelo animal.
+
