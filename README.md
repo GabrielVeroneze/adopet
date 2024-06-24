@@ -92,3 +92,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Edição de Perfil`: Permite que os usuários visualizem e editem suas informações pessoais, incluindo Foto, Nome, Telefone, Cidade e uma seção "Sobre" para uma breve descrição pessoal. Inclui a funcionalidade de upload de imagem para personalizar o perfil e garante que as informações sejam salvas e atualizadas após a edição.
 
+### Validações
+
+-   `Validação de Formulários`: Implementa validações em todos os formulários da plataforma para garantir o preenchimento correto dos campos. Exibe mensagens de erro quando os campos não são preenchidos adequadamente, orientando os usuários sobre como corrigir os erros.
+
