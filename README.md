@@ -84,3 +84,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Catálogo de Animais`: Exibe uma lista de animais disponíveis para adoção, apresentando detalhes como imagem, nome, idade, porte, características, cidade/estado e um botão para contato direto com o responsável pelo animal.
 
+### Comunicação e Contato
+
+-   `Contato com o Responsável`: Permite que os usuários enviem mensagens diretamente para a pessoa ou instituição responsável pelo animal em questão, facilitando a comunicação e esclarecimento de dúvidas.
+
