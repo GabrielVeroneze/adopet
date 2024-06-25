@@ -74,28 +74,76 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Navegação`: Fornece botões de acesso rápido para as páginas Home e Contato. Quando o usuário está logado, exibe um ícone de usuário que direciona para a página de Perfil.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 ### Cadastro e Autenticação
 
 -   `Cadastro de Usuários`: Permite que novos usuários se registrem na plataforma preenchendo os campos de email, nome, senha e confirmar senha. O campo de senha oferece a opção de exibir ou ocultar a senha digitada. Após o registro, o usuário é automaticamente redirecionado para a página de login.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 -   `Login de Usuários`: Permite que os usuários registrados façam login na plataforma inserindo suas credenciais de email e senha, com a opção de recuperação de senha. Após o login bem-sucedido, o usuário é direcionado para a página principal.
+
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
 
 ### Exploração e Visualização
 
 -   `Catálogo de Animais`: Apresenta uma variedade de animais disponíveis para adoção, exibindo detalhes como imagem, nome, idade, porte, características, localização e um botão para contato direto com o responsável pelo animal.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 ### Comunicação e Contato
 
 -   `Contato com o Responsável`: Permite aos usuários enviar mensagens diretamente para a pessoa ou instituição responsável pelo animal em questão, possibilitando a comunicação e esclarecimento de dúvidas.
+
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
 
 ### Gerenciamento de Perfil
 
 -   `Edição de Perfil`: Permite que os usuários visualizem e editem suas informações pessoais, incluindo foto, nome, telefone, cidade e uma breve descrição pessoal. Os dados são salvos e atualizados automaticamente após cada edição.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 ### Validações
 
 -   `Validação de Formulários`: Implementa validações em todos os formulários da plataforma para garantir o preenchimento correto dos campos. Exibe mensagens de erro quando os campos não são preenchidos adequadamente, orientando os usuários sobre como corrigir os erros.
 
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
+
 ### Interface Responsiva
 
 -   `Design Responsivo`: A plataforma se adapta automaticamente a diferentes tamanhos de tela, incluindo dispositivos móveis, tablets e desktops, proporcionando uma experiência de usuário consistente e otimizada em qualquer dispositivo.
+
+    <details>
+        <summary><b>:camera: Visualizar Demonstração</b></summary>
+        <br />
+        <img src="" />
+    </details>
