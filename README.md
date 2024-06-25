@@ -78,7 +78,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Cadastro de Usuários`: Permite que novos usuários se registrem na plataforma preenchendo os campos de email, nome, senha e confirmar senha. O campo de senha oferece a opção de exibir ou ocultar a senha digitada. Após o registro, o usuário é automaticamente redirecionado para a página de login.
 
--   `Login de Usuários`: Permite que os usuários registrados façam login na plataforma inserindo suas credenciais (Email e Senha). Inclui um link para recuperação de senha ("Esqueci minha senha"). Após o login bem-sucedido, o usuário é direcionado para a página principal.
+-   `Login de Usuários`: Permite que os usuários registrados façam login na plataforma inserindo suas credenciais de email e senha, com a opção de recuperação de senha. Após o login bem-sucedido, o usuário é direcionado para a página principal.
 
 ### Exploração e Visualização
 
