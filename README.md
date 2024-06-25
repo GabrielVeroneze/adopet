@@ -72,7 +72,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Navegação e Usabilidade
 
--   `Navegação`: Disponibiliza botões de acesso rápido para as páginas Home e Contato. Exibe um ícone de usuário quando o usuário está logado, permitindo fácil navegação entre páginas.
+-   `Navegação`: Fornece botões de acesso rápido para as páginas Home e Contato. Quando o usuário está logado, exibe um ícone de usuário que direciona para a página de Perfil.
 
 ### Cadastro e Autenticação
 
