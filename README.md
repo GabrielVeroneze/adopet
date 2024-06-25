@@ -82,7 +82,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Exploração e Visualização
 
--   `Catálogo de Animais`: Exibe uma lista de animais disponíveis para adoção, apresentando detalhes como imagem, nome, idade, porte, características, cidade/estado e um botão para contato direto com o responsável pelo animal.
+-   `Catálogo de Animais`: Apresenta uma variedade de animais disponíveis para adoção, exibindo detalhes como imagem, nome, idade, porte, características, localização e um botão para contato direto com o responsável pelo animal.
 
 ### Comunicação e Contato
 
