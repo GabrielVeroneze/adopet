@@ -90,7 +90,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Gerenciamento de Perfil
 
--   `Edição de Perfil`: Permite que os usuários visualizem e editem suas informações pessoais, incluindo Foto, Nome, Telefone, Cidade e uma seção "Sobre" para uma breve descrição pessoal. Inclui a funcionalidade de upload de imagem para personalizar o perfil e garante que as informações sejam salvas e atualizadas após a edição.
+-   `Edição de Perfil`: Permite que os usuários visualizem e editem suas informações pessoais, incluindo foto, nome, telefone, cidade e uma breve descrição pessoal. Os dados são salvos e atualizados automaticamente após cada edição.
 
 ### Validações
 
