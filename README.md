@@ -147,3 +147,6 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
         <br />
         <img src="" />
     </details>
+
+## :toolbox: Desenvolvimento e Implementação
+
