@@ -184,3 +184,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Navegação`: Utiliza Link, Navigate e useNavigate para navegação entre diferentes páginas e manipulação programática de rotas.
 
+### Context API
+
+-   `Criação de Contexto`: Utiliza createContext para criar contextos que permitem compartilhar dados entre componentes sem passar props manualmente.
+
+-   `Hooks de Contexto`: Implementa useContext para consumir contextos dentro dos componentes, facilitando o acesso aos dados globais da aplicação.
+
