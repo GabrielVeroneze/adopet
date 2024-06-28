@@ -166,6 +166,10 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Armazenamento Local`: Utiliza a API localStorage para armazenar dados localmente no navegador do usuário.
 
+-   `Funções Utilitárias`: Utiliza funções utilitárias para realizar tarefas comuns e repetitivas de forma eficiente e organizada.
+
+-   `Componentização`: Adota a componentização para criar interfaces modulares e reutilizáveis. Cada componente é responsável por uma parte específica da UI, encapsulando a lógica, o estado e a renderização associados a essa parte.
+
 ### Tipagem com TypeScript
 
 -   `Definições de Tipos`: Utiliza interfaces e type aliases para definir a estrutura e os tipos de dados, garantindo a segurança e a integridade do código.
