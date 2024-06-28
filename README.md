@@ -216,6 +216,8 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Reset e Watch`: Implementa reset para limpar dados de formulários e watch para observar mudanças nos campos.
 
+-   `Integração com Zod`: Utiliza zodResolver para integrar validação de formulários com o Zod, uma biblioteca de validação de esquemas.
+
 ### Validação de Dados com Zod
 
 -   `Validações`: Utiliza z.object, z.string, z.min, z.max, z.email para validar dados com esquemas robustos e personalizados.
