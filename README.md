@@ -194,6 +194,10 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Navegação`: Utiliza os componentes Link e Navigate para navegação entre diferentes páginas da aplicação.
 
+-   `Navegação Programática`: Utiliza o hook useNavigate para realizar navegação programática dentro dos componentes.
+
+-   `Acesso à Localização`: Utiliza o hook useLocation para acessar informações sobre a localização atual da aplicação, como o pathname e o search.
+
 ### Gerenciamento de Estado com Context API
 
 -   `Criação de Contexto`: Utiliza createContext para criar contextos que permitem compartilhar dados entre componentes sem passar props manualmente.
