@@ -200,7 +200,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Validação de Dados com Zod
 
--   `Validações com Zod`: Utiliza z.object, z.string, z.min, z.max, z.email para validar dados com esquemas robustos e personalizados.
+-   `Validações`: Utiliza z.object, z.string, z.min, z.max, z.email para validar dados com esquemas robustos e personalizados.
 
 -   `Refinamento de Validações`: Utiliza z.refine para criar validações customizadas baseadas em critérios específicos.
 
