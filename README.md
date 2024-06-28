@@ -204,6 +204,10 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Hooks de Contexto`: Implementa useContext para consumir contextos dentro dos componentes, facilitando o acesso aos dados globais da aplicação.
 
+-   `Provedor de Contexto`: Utiliza Context.Provider para envolver componentes e fornecer o contexto criado para toda a árvore de componentes descendentes.
+
+-   `Definição de DisplayName`: Utiliza displayName para definir um nome descritivo para o contexto criado com createContext.
+
 ### Manipulação de Formulários com React Hook Form
 
 -   `Manipulação de Formulários`: Utiliza useForm, handleSubmit, register para gerenciar estados e interações com formulários, incluindo validação de dados.
