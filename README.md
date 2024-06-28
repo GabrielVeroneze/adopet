@@ -176,3 +176,11 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Inferência de Tipos`: Utiliza infer para deduzir tipos automaticamente com base nos dados fornecidos.
 
+### Roteamento com React Router
+
+-   `Configuração de Rotas`: Utiliza BrowserRouter, Route e Routes para definir e gerenciar rotas na aplicação.
+
+-   `Rotas Aninhadas e Privadas`: Implementa rotas aninhadas para organizar o layout da aplicação e rotas privadas para controle de acesso.
+
+-   `Navegação`: Utiliza Link, Navigate e useNavigate para navegação entre diferentes páginas e manipulação programática de rotas.
+
