@@ -190,3 +190,11 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Hooks de Contexto`: Implementa useContext para consumir contextos dentro dos componentes, facilitando o acesso aos dados globais da aplicação.
 
+### React Hook Form
+
+-   `Manipulação de Formulários`: Utiliza useForm, handleSubmit, register para gerenciar estados e interações com formulários, incluindo validação de dados.
+
+-   `Validação com formState`: Utiliza formState para gerenciar estados de validação e exibir erros aos usuários.
+
+-   `Reset e Watch`: Implementa reset para limpar dados de formulários e watch para observar mudanças nos campos.
+
