@@ -198,3 +198,11 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Reset e Watch`: Implementa reset para limpar dados de formulários e watch para observar mudanças nos campos.
 
+### Zod
+
+-   `Validações com Zod`: Utiliza z.object, z.string, z.min, z.max, z.email para validar dados com esquemas robustos e personalizados.
+
+-   `Refinamento de Validações`: Utiliza z.refine para criar validações customizadas baseadas em critérios específicos.
+
+-   `Inferência de Tipos`: Utiliza z.infer para inferir automaticamente tipos a partir dos esquemas de validação.
+
