@@ -180,6 +180,12 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Inferência de Tipos`: Utiliza infer para deduzir tipos automaticamente com base nos dados fornecidos.
 
+-   `Interfaces Globais`: Utiliza interfaces globais para definir contratos de tipos consistentes em toda a aplicação.
+
+-   `Type Assertions`: Utiliza asserções de tipo (as) para informar ao compilador do TypeScript que determinado valor deve ser tratado como um tipo específico.
+
+-   `Basic Types`: Utiliza tipos básicos (string, number, boolean, etc.) para representar dados simples e garantir a integridade dos mesmos em toda a aplicação. 
+
 ### Roteamento com React Router
 
 -   `Configuração de Rotas`: Utiliza BrowserRouter, Route e Routes para definir e gerenciar rotas na aplicação.
