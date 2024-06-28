@@ -226,3 +226,8 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Media Queries`: Utiliza @media para aplicar estilos específicos com base no tamanho da tela, garantindo uma experiência consistente em diferentes dispositivos.
 
+### Pacotes
+
+-   `React Toastify`: Utiliza react-toastify para exibir notificações na interface da aplicação, informando usuários sobre operações importantes.
+
+-   `Json Server`: Utiliza json-server para simular uma API RESTful localmente durante o desenvolvimento da aplicação.
