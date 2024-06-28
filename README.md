@@ -182,7 +182,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Rotas Aninhadas e Privadas`: Implementa rotas aninhadas para organizar o layout da aplicação e rotas privadas para controle de acesso.
 
--   `Navegação`: Utiliza Link, Navigate e useNavigate para navegação entre diferentes páginas e manipulação programática de rotas.
+-   `Navegação`: Utiliza os componentes Link e Navigate para navegação entre diferentes páginas da aplicação.
 
 ### Gerenciamento de Estado com Context API
 
