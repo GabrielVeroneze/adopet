@@ -212,3 +212,11 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Instância Personalizada`: Utiliza axios.create para criar instâncias personalizadas do Axios com configurações globais, como baseURL e headers.
 
+### Styled Components
+
+-   `Criação de Componentes Estilizados`: Utiliza styled e css para criar componentes estilizados, encapsulando estilos diretamente nos componentes.
+
+-   `Estilos Dinâmicos`: Implementa estilos baseados em props ($prop) para criar componentes dinâmicos que se adaptam a diferentes estados.
+
+-   `Tema`: Utiliza ThemeProvider para fornecer temas globais à aplicação e personalizar estilos em toda a interface.
+
