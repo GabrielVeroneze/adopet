@@ -244,6 +244,12 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Tema para Estilização`: Implementa tema para estilização, permitindo mudanças de estilo em toda a interface.
 
+-   `Definição de Estilos Base`: Define estilos base para componentes sem a necessidade de repetir código, garantindo consistência visual.
+
+-   `Extensão de Estilos e Componentes`: Estende estilos de componentes e estilos base, criando variantes personalizadas sem modificar o estilo base.
+
+-   `Estilos Globais`: Aplica estilos globais utilizando createGlobalStyle para definir estilos que se aplicam a todos os elementos da página.
+
 ### Construção de Layout
 
 -   `Flexbox e CSS Grid`: Utiliza Flexbox (flex-direction, justify-content, align-items) e CSS Grid (grid-template-columns, grid-template-rows, grid-template-areas) para criar layouts responsivos e dinâmicos.
