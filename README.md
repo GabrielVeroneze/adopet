@@ -222,9 +222,13 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Validações`: Utiliza z.object, z.string, z.min, z.max, z.email para validar dados com esquemas robustos e personalizados.
 
+-   `Validação com Expressões Regulares`: Utiliza z.regex para validar strings usando expressões regulares, permitindo validações precisas como formatos de telefone, senha, entre outros.
+
 -   `Refinamento de Validações`: Utiliza z.refine para criar validações customizadas baseadas em critérios específicos.
 
 -   `Inferência de Tipos`: Utiliza z.infer para inferir automaticamente tipos a partir dos esquemas de validação.
+
+-   `Mensagens de Erro`: Personaliza mensagens de erro usando o atributo message em esquemas Zod.
 
 ### Comunicação com API via Axios
 
