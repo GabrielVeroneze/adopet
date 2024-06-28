@@ -184,13 +184,13 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Navegação`: Utiliza Link, Navigate e useNavigate para navegação entre diferentes páginas e manipulação programática de rotas.
 
-### Context API
+### Gerenciamento de Estado com Context API
 
 -   `Criação de Contexto`: Utiliza createContext para criar contextos que permitem compartilhar dados entre componentes sem passar props manualmente.
 
 -   `Hooks de Contexto`: Implementa useContext para consumir contextos dentro dos componentes, facilitando o acesso aos dados globais da aplicação.
 
-### React Hook Form
+### Manipulação de Formulários com React Hook Form
 
 -   `Manipulação de Formulários`: Utiliza useForm, handleSubmit, register para gerenciar estados e interações com formulários, incluindo validação de dados.
 
@@ -198,7 +198,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Reset e Watch`: Implementa reset para limpar dados de formulários e watch para observar mudanças nos campos.
 
-### Zod
+### Validação de Dados com Zod
 
 -   `Validações com Zod`: Utiliza z.object, z.string, z.min, z.max, z.email para validar dados com esquemas robustos e personalizados.
 
@@ -206,13 +206,13 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Inferência de Tipos`: Utiliza z.infer para inferir automaticamente tipos a partir dos esquemas de validação.
 
-### Axios
+### Comunicação com API via Axios
 
 -   `Requisições HTTP`: Utiliza Axios para realizar requisições HTTP, como get, post, put, delete, para interagir com APIs RESTful.
 
 -   `Instância Personalizada`: Utiliza axios.create para criar instâncias personalizadas do Axios com configurações globais, como baseURL e headers.
 
-### Styled Components
+### Estilização com Styled Components
 
 -   `Criação de Componentes Estilizados`: Utiliza styled e css para criar componentes estilizados, encapsulando estilos diretamente nos componentes.
 
@@ -220,13 +220,13 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Tema`: Utiliza ThemeProvider para fornecer temas globais à aplicação e personalizar estilos em toda a interface.
 
-### Layout Responsivo
+### Construção de Layout
 
 -   `Flexbox e CSS Grid`: Utiliza Flexbox (flex-direction, justify-content, align-items) e CSS Grid (grid-template-columns, grid-template-rows, grid-template-areas) para criar layouts responsivos e dinâmicos.
 
 -   `Media Queries`: Utiliza @media para aplicar estilos específicos com base no tamanho da tela, garantindo uma experiência consistente em diferentes dispositivos.
 
-### Pacotes
+### Utilização de Pacotes
 
 -   `React Toastify`: Utiliza react-toastify para exibir notificações na interface da aplicação, informando usuários sobre operações importantes.
 
