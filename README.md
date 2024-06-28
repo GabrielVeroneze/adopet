@@ -206,3 +206,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Inferência de Tipos`: Utiliza z.infer para inferir automaticamente tipos a partir dos esquemas de validação.
 
+### Axios
+
+-   `Requisições HTTP`: Utiliza Axios para realizar requisições HTTP, como get, post, put, delete, para interagir com APIs RESTful.
+
+-   `Instância Personalizada`: Utiliza axios.create para criar instâncias personalizadas do Axios com configurações globais, como baseURL e headers.
+
