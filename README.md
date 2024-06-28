@@ -166,3 +166,13 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Armazenamento Local`: Utiliza a API localStorage para armazenar dados localmente no navegador do usuário.
 
+### Tipagem com TypeScript
+
+-   `Definições de Tipos`: Utiliza interfaces e type aliases para definir a estrutura e os tipos de dados, garantindo a segurança e a integridade do código.
+
+-   `Tipagem de Props`: Define tipos para props de componentes, garantindo consistência e prevenindo erros durante o desenvolvimento.
+
+-   `Operadores de Tipo`: Utiliza Optional Chaining (?) e Non-null Assertion Operator (!) para lidar com tipos opcionais e evitar erros de acesso a propriedades nulas.
+
+-   `Inferência de Tipos`: Utiliza infer para deduzir tipos automaticamente com base nos dados fornecidos.
+
