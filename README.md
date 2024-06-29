@@ -154,9 +154,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Componentes Funcionais e JSX`: Utiliza componentes funcionais e JSX para estruturar a interface do usuário de forma declarativa e reutilizável.
 
--   `Hooks`: Utiliza os Hooks do React, como useState, useEffect, useCallback, para gerenciar o estado local dos componentes, realizar efeitos colaterais e otimizar o desempenho.
-
--   `Hooks Customizados`: Cria hooks customizados para encapsular lógicas específicas e reutilizáveis em vários componentes da aplicação.
+-   `Hooks e Hooks Customizados`: Utiliza hooks como useState, useEffect, useCallback, para gerenciar estado e efeitos colaterais, além de criar hooks customizados para encapsular lógicas reutilizáveis.
 
 -   `Renderização Condicional e Mapeamento de Listas`: Implementa renderização condicional e mapeamento de listas para exibir conteúdo de forma dinâmica com base em condições e dados externos.
 
