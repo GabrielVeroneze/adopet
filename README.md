@@ -202,13 +202,13 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Manipulação de Formulários com React Hook Form
 
--   `Manipulação de Formulários`: Utiliza useForm, handleSubmit, register para gerenciar estados e interações com formulários, incluindo validação de dados.
+-   `Manipulação de Formulários`: Utiliza `useForm`, `handleSubmit`, `register` para gerenciar estados e interações com formulários, incluindo validação de dados.
 
--   `Validação com formState`: Utiliza formState para gerenciar estados de validação e exibir erros aos usuários.
+-   `Validação com formState`: Utiliza `formState` para gerenciar estados de validação e exibir erros aos usuários.
 
--   `Reset e Watch`: Implementa reset para limpar dados de formulários e watch para observar mudanças nos campos.
+-   `Reset e Watch`: Implementa `reset` para limpar dados de formulários e `watch` para observar mudanças nos campos.
 
--   `Integração com Zod`: Utiliza zodResolver para integrar validação de formulários com o Zod, uma biblioteca de validação de esquemas.
+-   `Integração com Zod`: Utiliza `zodResolver` para integrar validação de formulários com o Zod, uma biblioteca de validação de esquemas.
 
 ### Validação de Dados com Zod
 
