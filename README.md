@@ -166,7 +166,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Funções Utilitárias`: Utiliza funções utilitárias para realizar tarefas comuns e repetitivas de forma eficiente e organizada.
 
--   `Componentização`: Adota a componentização para criar interfaces modulares e reutilizáveis. Cada componente é responsável por uma parte específica da UI, encapsulando a lógica, o estado e a renderização associados a essa parte.
+-   `Componentização`: Cria interfaces modulares e reutilizáveis, com cada componente responsável por uma parte específica da UI, encapsulando lógica, estado e renderização.
 
 ### Tipagem com TypeScript
 
