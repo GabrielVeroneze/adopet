@@ -212,15 +212,15 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Validação de Dados com Zod
 
--   `Validações`: Utiliza z.object, z.string, z.min, z.max, z.email para validar dados com esquemas robustos e personalizados.
+-   `Validações`: Utiliza `z.object`, `z.string`, `z.min`, `z.max`, `z.email`, entre outros, para validar dados com esquemas robustos e personalizados.
 
--   `Validação com Expressões Regulares`: Utiliza z.regex para validar strings usando expressões regulares, permitindo validações precisas como formatos de telefone, senha, entre outros.
+-   `Expressões Regulares`: Utiliza `z.regex` para validar strings usando expressões regulares, permitindo validações precisas como formatos de telefone, senha, entre outros.
 
--   `Refinamento de Validações`: Utiliza z.refine para criar validações customizadas baseadas em critérios específicos.
+-   `Refinamento de Validações`: Utiliza `z.refine` para criar validações customizadas baseadas em critérios específicos.
 
--   `Mensagens de Erro`: Personaliza mensagens de erro usando o atributo message em esquemas Zod.
+-   `Mensagens de Erro`: Personaliza mensagens de erro usando o atributo `message` em esquemas Zod.
 
--   `Inferência de Tipos`: Utiliza z.infer para inferir automaticamente tipos a partir dos esquemas de validação.
+-   `Inferência de Tipos`: Utiliza `z.infer` para inferir automaticamente tipos a partir dos esquemas de validação.
 
 ### Comunicação com API via Axios
 
