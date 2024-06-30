@@ -180,15 +180,15 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Roteamento com React Router
 
--   `Configuração de Rotas`: Utiliza BrowserRouter, Route e Routes para definir e gerenciar rotas na aplicação.
+-   `Configuração de Rotas`: Utiliza `BrowserRouter`, `Routes` e `Route` para definir e gerenciar rotas na aplicação.
 
 -   `Rotas Aninhadas e Privadas`: Implementa rotas aninhadas para organizar o layout da aplicação e rotas privadas para controle de acesso.
 
--   `Navegação`: Utiliza os componentes Link e Navigate para navegação entre diferentes páginas da aplicação.
+-   `Navegação`: Utiliza os componentes `Link` e `Navigate` para navegação entre diferentes páginas da aplicação.
 
--   `Navegação Programática`: Utiliza o hook useNavigate para realizar navegação programática dentro dos componentes.
+-   `Navegação Programática`: Utiliza o hook `useNavigate` para realizar navegação programática dentro dos componentes.
 
--   `Acesso à Localização`: Utiliza o hook useLocation para acessar informações sobre a localização atual da aplicação, como o pathname e o search.
+-   `Acesso à Localização`: Utiliza o hook `useLocation` para acessar informações sobre a localização atual da aplicação, como o `pathname` e o `search`.
 
 ### Gerenciamento de Estado com Context API
 
