@@ -154,15 +154,15 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Componentes Funcionais e JSX`: Utiliza componentes funcionais e JSX para estruturar a interface do usuário de forma declarativa e reutilizável.
 
--   `Hooks e Hooks Customizados`: Utiliza hooks como useState, useEffect, useCallback, para gerenciar estado e efeitos colaterais, além de criar hooks customizados para encapsular lógicas reutilizáveis.
+-   `Hooks e Hooks Customizados`: Utiliza hooks como `useState`, `useEffect`, `useCallback`, para gerenciar estado e efeitos colaterais, além de criar hooks customizados para encapsular lógicas reutilizáveis.
 
 -   `Componentização`: Cria interfaces modulares e reutilizáveis, com cada componente responsável por uma parte específica da UI, encapsulando lógica, estado e renderização.
 
--   `Renderização Condicional e Mapeamento de Listas`: Implementa renderização condicional e mapeamento de listas para exibir conteúdo de forma dinâmica com base em condições e dados externos.
+-   `Renderização Dinâmica`: Implementa renderização condicional e mapeamento de listas para exibir conteúdo de forma dinâmica, adaptando-se a diferentes condições e dados externos.
 
--   `Eventos`: Implementa diversos eventos, como onClick, onSubmit, para interagir com elementos da interface e responder às ações do usuário.
+-   `Eventos`: Implementa diversos eventos, como `onClick`, `onSubmit`, entre outros, para interagir com elementos da interface e responder às ações do usuário.
 
--   `Operações Assíncronas`: Utiliza async/await, .then e .catch para lidar com operações assíncronas, como requisições HTTP e manipulação de dados.
+-   `Operações Assíncronas`: Utiliza `async` e `await`, além dos métodos `then` e `catch`, para gerenciar operações assíncronas, como requisições HTTP e manipulação de dados.
 
 ### Tipagem com TypeScript
 
