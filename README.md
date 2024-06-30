@@ -162,10 +162,6 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Operações Assíncronas`: Utiliza async/await, .then e .catch para lidar com operações assíncronas, como requisições HTTP e manipulação de dados.
 
--   `Armazenamento Local`: Utiliza a API localStorage para armazenar dados localmente no navegador do usuário.
-
--   `Funções Utilitárias`: Utiliza funções utilitárias para realizar tarefas comuns e repetitivas de forma eficiente e organizada.
-
 -   `Componentização`: Cria interfaces modulares e reutilizáveis, com cada componente responsável por uma parte específica da UI, encapsulando lógica, estado e renderização.
 
 ### Tipagem com TypeScript
