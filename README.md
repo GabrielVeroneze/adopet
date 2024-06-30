@@ -232,9 +232,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Criação de Componentes Estilizados`: Utiliza styled e css para criar componentes estilizados, encapsulando estilos diretamente nos componentes.
 
--   `Estilos Dinâmicos`: Implementa estilos baseados em props ($prop) para criar componentes dinâmicos que se adaptam a diferentes estados.
-
 -   `Tema para Estilização`: Implementa tema para estilização, permitindo mudanças de estilo em toda a interface.
+
+-   `Estilos Dinâmicos`: Implementa estilos baseados em props ($prop) para criar componentes dinâmicos que se adaptam a diferentes estados.
 
 -   `Definição de Estilos Base`: Define estilos base para componentes sem a necessidade de repetir código, garantindo consistência visual.
 
