@@ -218,9 +218,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Refinamento de Validações`: Utiliza z.refine para criar validações customizadas baseadas em critérios específicos.
 
--   `Inferência de Tipos`: Utiliza z.infer para inferir automaticamente tipos a partir dos esquemas de validação.
-
 -   `Mensagens de Erro`: Personaliza mensagens de erro usando o atributo message em esquemas Zod.
+
+-   `Inferência de Tipos`: Utiliza z.infer para inferir automaticamente tipos a partir dos esquemas de validação.
 
 ### Comunicação com API via Axios
 
