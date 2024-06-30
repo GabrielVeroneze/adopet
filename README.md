@@ -192,13 +192,13 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Gerenciamento de Estado com Context API
 
--   `Criação de Contexto`: Utiliza createContext para criar contextos que permitem compartilhar dados entre componentes sem passar props manualmente.
+-   `Criação de Contexto`: Utiliza `createContext` para criar contextos que permitem compartilhar dados de forma eficiente entre componentes.
 
--   `Provedor de Contexto`: Utiliza Context.Provider para envolver componentes e fornecer o contexto criado para toda a árvore de componentes descendentes.
+-   `Provedor de Contexto`: Utiliza `Context.Provider` para envolver componentes e fornecer o contexto criado para toda a árvore de componentes descendentes.
 
--   `Hooks de Contexto`: Implementa useContext para consumir contextos dentro dos componentes, facilitando o acesso aos dados globais da aplicação.
+-   `Hooks de Contexto`: Implementa `useContext` para consumir contextos dentro dos componentes, facilitando o acesso aos dados globais da aplicação.
 
--   `Definição de DisplayName`: Utiliza displayName para definir um nome descritivo para o contexto criado com createContext.
+-   `Definição de DisplayName`: Utiliza `displayName` para definir um nome descritivo para o contexto criado com `createContext`.
 
 ### Manipulação de Formulários com React Hook Form
 
