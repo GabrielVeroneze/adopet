@@ -224,9 +224,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Comunicação com API via Axios
 
--   `Requisições HTTP`: Utiliza Axios para realizar requisições HTTP, como get, post, put, delete, para interagir com APIs RESTful.
+-   `Requisições HTTP`: Utiliza Axios para realizar requisições HTTP, como `get`, `post`, `put`, `delete`, para interagir com APIs RESTful.
 
--   `Instância Personalizada`: Utiliza axios.create para criar instâncias personalizadas do Axios com configurações globais, como baseURL e headers.
+-   `Instância Personalizada`: Utiliza `axios.create` para criar instâncias personalizadas do Axios com configurações globais, como `baseURL` e `headers`.
 
 ### Estilização com Styled Components
 
