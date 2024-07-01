@@ -250,6 +250,6 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Utilização de Pacotes
 
--   `React Toastify`: Utiliza react-toastify para exibir notificações na interface da aplicação, informando usuários sobre operações importantes.
+-   `React Toastify`: Utiliza `react-toastify` para exibir notificações na interface da aplicação, informando usuários sobre operações importantes.
 
--   `Json Server`: Utiliza json-server para simular uma API RESTful localmente durante o desenvolvimento da aplicação.
+-   `Json Server`: Utiliza `json-server` para simular uma API RESTful localmente durante o desenvolvimento da aplicação.
