@@ -244,9 +244,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Construção de Layout
 
--   `Flexbox e CSS Grid`: Utiliza Flexbox (flex-direction, justify-content, align-items) e CSS Grid (grid-template-columns, grid-template-rows, grid-template-areas) para criar layouts responsivos e dinâmicos.
+-   `Flexbox e CSS Grid`: Utiliza Flexbox (`flex-direction`, `justify-content`, `align-items`) e CSS Grid (`grid-template-columns`, `grid-template-rows`, `grid-template-areas`) para criar layouts responsivos e dinâmicos.
 
--   `Media Queries`: Utiliza @media para aplicar estilos específicos com base no tamanho da tela, garantindo uma experiência consistente em diferentes dispositivos.
+-   `Media Queries`: Utiliza `@media` para aplicar estilos específicos com base no tamanho da tela, garantindo uma experiência consistente em diferentes dispositivos.
 
 ### Utilização de Pacotes
 
