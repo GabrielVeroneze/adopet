@@ -230,17 +230,17 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Estilização com Styled Components
 
--   `Criação de Componentes Estilizados`: Utiliza styled e css para criar componentes estilizados, encapsulando estilos diretamente nos componentes.
+-   `Criação de Componentes Estilizados`: Utiliza `styled` e `css` para criar componentes estilizados, encapsulando estilos diretamente nos componentes.
 
--   `Tema para Estilização`: Implementa tema para estilização, permitindo mudanças de estilo em toda a interface.
+-   `Tema para Estilização`: Implementa tema para centralizar a definição de cores, fontes, espaçamentos e outros estilos, garantindo consistência na interface.
 
--   `Estilos Dinâmicos`: Implementa estilos baseados em props ($prop) para criar componentes dinâmicos que se adaptam a diferentes estados.
+-   `Estilos Dinâmicos`: Implementa estilos baseados em `$props` para criar componentes dinâmicos que se adaptam a diferentes estados.
 
 -   `Definição de Estilos Base`: Define estilos base para componentes sem a necessidade de repetir código, garantindo consistência visual.
 
--   `Extensão de Estilos e Componentes`: Estende estilos de componentes e estilos base, criando variantes personalizadas sem modificar o estilo base.
+-   `Extensão de Estilos`: Utiliza extensão de estilos em componentes estilizados para criar variantes personalizadas, sem modificar o estilo original.
 
--   `Estilos Globais`: Aplica estilos globais utilizando createGlobalStyle para definir estilos que se aplicam a todos os elementos da página.
+-   `Estilos Globais`: Aplica estilos globais utilizando `createGlobalStyle` para definir estilos que se aplicam a todos os elementos da página.
 
 ### Construção de Layout
 
