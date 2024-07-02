@@ -253,3 +253,9 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 -   `React Toastify`: Utiliza `react-toastify` para exibir notificações na interface da aplicação, informando usuários sobre operações importantes.
 
 -   `Json Server`: Utiliza `json-server` para simular uma API RESTful localmente durante o desenvolvimento da aplicação.
+
+## :computer: Ferramentas Utilizadas
+
+| React | TypeScript | Styled Components | React Router | Axios | React Hook Form | Zod | Vite | 
+| :---: | :--------: | :---------------: | :----------: | :---: | :-------------: | :-: | :--: |
+<img height="65px" src=""> | <img height="65px" src=""> | <img height="80px" src=""> | <img height="50px" src=""> | <img height="65px" src=""> | <img height="65px" src=""> | <img height="65px" src=""> | <img height="65px" src="">
