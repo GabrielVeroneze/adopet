@@ -259,3 +259,15 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 | React | TypeScript | Styled Components | React Router | Axios | React Hook Form | Zod | Vite | 
 | :---: | :--------: | :---------------: | :----------: | :---: | :-------------: | :-: | :--: |
 <img height="65px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/0e873759-6b09-45e1-9fd2-527af32b7a17"> | <img height="65px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/274514dc-5872-4da0-8a0b-8552c4b8fd9d"> | <img height="80px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/5c085c6f-9da1-4779-a897-52c25a35c170"> | <img height="50px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/7f9dffdb-402f-44ba-831a-9617bcf174c4"> | <img height="65px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/f5d0a7d7-b169-452a-9a53-88f24c6f4371"> | <img height="65px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/b5eca5ad-ab0a-4ef9-9d71-0439e292e33c"> | <img height="65px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/5e1d6e0f-54f3-4c62-a6b0-a9e69445ad96"> | <img height="65px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/23a2d06b-2fbd-400b-ba3d-10f2aafd1e1b">
+
+## :open_file_folder: Acesso ao Projeto
+
+Você pode baixar o projeto diretamente:
+
+[Baixar código fonte](https://github.com/GabrielVeroneze/adopet/archive/refs/heads/main.zip)
+
+Também é possível clonar o repositório usando o seguinte comando:
+
+```
+git clone https://github.com/GabrielVeroneze/adopet.git
+```
