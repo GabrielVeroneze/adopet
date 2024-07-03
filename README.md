@@ -318,3 +318,9 @@ A 4ª Edição do Challenge Front-End proporciona uma experiência prática e de
 
 O Challenge Front-End é uma abordagem baseada em desafios, onde os participantes se envolvem com um problema específico e exploram soluções por meio de cursos, conteúdos, interações e seus próprios conhecimentos. É uma simulação de um desafio real do mundo profissional, incentivando a aplicação prática e criativa das habilidades dos participantes.
 
+### História do Projeto
+
+A empresa AdoPet tem como objetivo fazer o intermédio entre adotantes de animais e ONGs focadas em retirar animais da rua. Para alcançar esse objetivo, AdoPet deseja implementar uma plataforma digital que aumente a interação entre possíveis adotantes e representantes de ONGs.
+
+Essa plataforma deve incluir páginas de login, cadastro, lista detalhada de animais para adoção com opções de contato, além de funcionalidades para enviar mensagens e editar perfil com upload de foto do usuário.
+
