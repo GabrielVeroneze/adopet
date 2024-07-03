@@ -309,3 +309,8 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
     ```
 
     Você receberá uma mensagem com a URL de execução da aplicação, geralmente em http://localhost:5173.
+
+## :trophy: Sobre o Challenge
+
+A 4ª Edição do Challenge Front-End proporciona uma experiência prática e desafiadora, permitindo que os participantes apliquem seus conhecimentos desenvolvendo um projeto completo do início ao fim.
+
