@@ -314,3 +314,7 @@ Para usar este projeto em seu computador localmente, você precisará seguir est
 
 A 4ª Edição do Challenge Front-End proporciona uma experiência prática e desafiadora, permitindo que os participantes apliquem seus conhecimentos desenvolvendo um projeto completo do início ao fim.
 
+### O que é um Challenge?
+
+O Challenge Front-End é uma abordagem baseada em desafios, onde os participantes se envolvem com um problema específico e exploram soluções por meio de cursos, conteúdos, interações e seus próprios conhecimentos. É uma simulação de um desafio real do mundo profissional, incentivando a aplicação prática e criativa das habilidades dos participantes.
+
