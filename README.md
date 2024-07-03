@@ -324,3 +324,8 @@ A empresa AdoPet tem como objetivo fazer o intermédio entre adotantes de animai
 
 Essa plataforma deve incluir páginas de login, cadastro, lista detalhada de animais para adoção com opções de contato, além de funcionalidades para enviar mensagens e editar perfil com upload de foto do usuário.
 
+### Desenvolvimento Ágil com Trello
+
+Durante o período de quatro semanas, o projeto foi desenvolvido seguindo uma metodologia ágil, utilizando o Trello para gerenciar as tarefas desde o início até a conclusão do projeto. 
+
+Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o esforço para diferentes áreas do projeto. Abaixo, estão listadas as principais tarefas de cada semana:
