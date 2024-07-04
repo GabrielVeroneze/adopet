@@ -326,6 +326,14 @@ Essa plataforma deve incluir páginas de login, cadastro, lista detalhada de ani
 
 ### Desenvolvimento Ágil com Trello
 
-Durante o período de quatro semanas, o projeto foi desenvolvido seguindo uma metodologia ágil, utilizando o Trello para gerenciar as tarefas desde o início até a conclusão do projeto. 
+Durante o período de quatro semanas, o projeto foi desenvolvido seguindo uma metodologia ágil, utilizando o Trello para gerenciar as tarefas desde o início até a conclusão do projeto.
 
 Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o esforço para diferentes áreas do projeto. Abaixo, estão listadas as principais tarefas de cada semana:
+
+#### Semana 1
+
+-   Desenvolvimento das páginas inicial, cadastro, login e home, seguindo a metodologia mobile-first.
+
+-   Implementação do header e footer para a versão mobile.
+
+-   Estruturação dos formulários de login e cadastro para mobile.
