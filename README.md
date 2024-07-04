@@ -337,3 +337,13 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 -   Implementação do header e footer para a versão mobile.
 
 -   Estruturação dos formulários de login e cadastro para mobile.
+
+#### Semana 2
+
+-   Criação das páginas de contato e perfil do usuário, adaptadas para mobiles, tablets e desktops.
+
+-   Adaptação das páginas inicial, cadastro, login e home, para tablets e desktops.
+
+-   Implementação do header e footer para tablet e desktop.
+
+-   Desenvolvimento do background das páginas com diferentes imagens.
