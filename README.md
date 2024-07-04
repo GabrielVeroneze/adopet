@@ -1,3 +1,7 @@
+Este projeto foi desenvolvido como parte do Challenge Front-End 4ª Edição promovido pela Alura. Durante quatro semanas, os participantes tiveram a oportunidade de praticar e expandir seus conhecimentos em desenvolvimento web, resultando na criação do AdoPet, uma plataforma que conecta adotantes a ONGs que resgatam animais de rua. Este README contém informações detalhadas sobre as funcionalidades, recursos e instruções para a execução da aplicação.
+
+<hr>
+
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/f4d380e9-2dea-4ba4-b5d5-754191321d9d"></h1>
 
 <p align="center">A AdoPet é uma plataforma digital desenvolvida para conectar adotantes de animais com ONGs dedicadas ao resgate e acolhimento de animais de rua.</p>
