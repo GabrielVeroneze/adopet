@@ -347,3 +347,15 @@ Ao longo de cada semana, foram estabelecidas metas específicas, direcionando o 
 -   Implementação do header e footer para tablet e desktop.
 
 -   Desenvolvimento do background das páginas com diferentes imagens.
+
+#### Semanas 3 & 4
+
+-   Integração do JavaScript para tornar as páginas dinâmicas e adicionar funcionalidades avançadas.
+
+-   Validação dos formulários de cadastro, login, contato e perfil.
+
+-   Implementação das funcionalidades de cadastro de novos usuários e validação de dados de login.
+
+-   Desenvolvimento da listagem dinâmica de animais utilizando API.
+
+-   Configuração da funcionalidade de edição de usuário, permitindo atualizações de perfil.
