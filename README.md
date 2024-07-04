@@ -2,6 +2,43 @@ Este projeto foi desenvolvido como parte do Challenge Front-End 4ª Edição pro
 
 <hr>
 
+## Índice
+
+-   [Descrição](#descricao)
+-   [Páginas e Componentes](#building_construction-páginas-e-componentes)
+    -   [Página Inicial](#página-inicial)
+    -   [Página de Cadastro](#página-de-cadastro)
+    -   [Página de Login](#página-de-login)
+    -   [Página Home](#página-home)
+    -   [Página de Contato](#página-de-contato)
+    -   [Página de Perfil](#página-de-perfil)
+-   [Funcionalidades e Recursos](#rocket-funcionalidades-e-recursos)
+    -   [Navegação e Usabilidade](#navegação-e-usabilidade)
+    -   [Cadastro e Autenticação](#cadastro-e-autenticação)
+    -   [Exploração e Visualização](#exploração-e-visualização)
+    -   [Comunicação e Contato](#comunicação-e-contato)
+    -   [Gerenciamento de Perfil](#gerenciamento-de-perfil)
+    -   [Validações](#validações)
+    -   [Interface Responsiva](#interface-responsiva)
+-   [Desenvolvimento e Implementação](#toolbox-desenvolvimento-e-implementação)
+    -   [Desenvolvimento com React](#desenvolvimento-com-react)
+    -   [Tipagem com TypeScript](#tipagem-com-typescript)
+    -   [Roteamento com React Router](#roteamento-com-react-router)
+    -   [Gerenciamento de Estado com Context API](#gerenciamento-de-estado-com-context-api)
+    -   [Manipulação de Formulários com React Hook Form](#manipulação-de-formulários-com-react-hook-form)
+    -   [Validação de Dados com Zod](#validação-de-dados-com-zod)
+    -   [Comunicação com API via Axios](#comunicação-com-api-via-axios)
+    -   [Estilização com Styled Components](#estilização-com-styled-components)
+    -   [Construção de Layout](#construção-de-layout)
+    -   [Utilização de Pacotes](#utilização-de-pacotes)
+-   [Ferramentas Utilizadas](#computer-ferramentas-utilizadas)
+-   [Acesso ao Projeto](#open_file_folder-acesso-ao-projeto)
+-   [Instruções](#clipboard-instruções)
+-   [Sobre o Challenge](#trophy-sobre-o-challenge)
+    -   [O que é um Challenge?](#o-que-é-um-challenge)
+    -   [História do Projeto](#história-do-projeto)
+    -   [Desenvolvimento Ágil com Trello](#desenvolvimento-ágil-com-trello)
+
 <h1 align="center" id="descricao"><img width="250px" src="https://github.com/GabrielVeroneze/adopet/assets/95183901/f4d380e9-2dea-4ba4-b5d5-754191321d9d"></h1>
 
 <p align="center">A AdoPet é uma plataforma digital desenvolvida para conectar adotantes de animais com ONGs dedicadas ao resgate e acolhimento de animais de rua.</p>
