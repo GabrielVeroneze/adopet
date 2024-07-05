@@ -56,7 +56,7 @@ A página inicial da AdoPet é a porta de entrada da plataforma. Nesta página, 
 <details>
     <summary><b>:camera: Visualizar Screenshot</b></summary>
     <br />
-    <img src="" />
+    <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/928be07d-75a0-4af3-ab80-77a736eebad1" />
 </details>
 
 ### Página de Cadastro
@@ -66,7 +66,7 @@ A página de cadastro é onde os novos usuários podem criar suas contas na plat
 <details>
     <summary><b>:camera: Visualizar Screenshot</b></summary>
     <br />
-    <img src="" />
+    <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/81dded34-127e-4b2e-b384-8f59234f7428" />
 </details>
 
 ### Página de Login
@@ -76,7 +76,7 @@ A página de login fornece uma interface para os usuários acessarem suas contas
 <details>
     <summary><b>:camera: Visualizar Screenshot</b></summary>
     <br />
-    <img src="" />
+    <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/99c7590d-c943-4bb2-abc1-ee78fbf8e18d" />
 </details>
 
 ### Página Home
@@ -86,7 +86,7 @@ A página home é o ponto central da plataforma, onde os usuários podem explora
 <details>
     <summary><b>:camera: Visualizar Screenshot</b></summary>
     <br />
-    <img src="" />
+    <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/d50ff6f8-7a01-4b26-908e-91df36d22906" />
 </details>
 
 ### Página de Contato
@@ -96,7 +96,7 @@ A página de contato possibilita os usuários se comunicar diretamente com a pes
 <details>
     <summary><b>:camera: Visualizar Screenshot</b></summary>
     <br />
-    <img src="" />
+    <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/d7d2c717-db06-45b1-8387-6f78c7c2aa4d" />
 </details>
 
 ### Página de Perfil
@@ -106,7 +106,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 <details>
     <summary><b>:camera: Visualizar Screenshot</b></summary>
     <br />
-    <img src="" />
+    <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/990ed62b-8232-404b-9527-f2d7e0b258a4" />
 </details>
 
 ## :rocket: Funcionalidades e Recursos
