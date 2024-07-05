@@ -12,7 +12,7 @@ export const BasePrincipal = styled.main`
     }
 
     @media ${dispositivos.desktop} {
-        min-height: 944px;
+        min-height: calc(100vh - 80px);
         padding: 12.25rem 10rem 2rem;
     }
 `
