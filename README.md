@@ -118,7 +118,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/590f099a-898b-494b-babb-9a7c6b0786a9" />
     </details>
 
 ### Cadastro e Autenticação
