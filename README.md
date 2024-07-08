@@ -128,7 +128,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="" />
+        <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/4257e27e-06bb-4dda-9c73-85e633c87d0f" />
     </details>
 
 -   `Login de Usuários`: Permite que os usuários registrados façam login na plataforma inserindo suas credenciais de email e senha, com a opção de recuperação de senha. Após o login bem-sucedido, o usuário é direcionado para a página principal.
@@ -136,7 +136,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
         <br />
-        <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/6eb4f76f-a239-4b92-b7b7-a97f2d3a97d2" />
+        <img src="https://github.com/GabrielVeroneze/adopet/assets/95183901/570a7acf-580e-4729-a3b9-d8320b663e08" />
     </details>
 
 ### Exploração e Visualização
