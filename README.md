@@ -171,7 +171,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Validações
 
--   `Validação de Formulários`: Implementa validações em todos os formulários da plataforma para garantir o preenchimento correto dos campos. Exibe mensagens de erro quando os campos não são preenchidos adequadamente, orientando os usuários sobre como corrigir os erros.
+-   `Validação de Formulários`: Garante que todos os campos dos formulários sejam preenchidos corretamente, mostrando mensagens de erro e orientações para correção quando houver falhas no preenchimento.
 
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
