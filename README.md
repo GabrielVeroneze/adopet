@@ -181,7 +181,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Interface Responsiva
 
--   `Design Responsivo`: A plataforma se adapta automaticamente a diferentes tamanhos de tela, incluindo dispositivos móveis, tablets e desktops, proporcionando uma experiência de usuário consistente e otimizada em qualquer dispositivo.
+-   `Design Responsivo`: A plataforma se ajusta automaticamente a diferentes tamanhos de tela, oferecendo uma experiência consistente em dispositivos móveis, tablets e desktops.
 
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
