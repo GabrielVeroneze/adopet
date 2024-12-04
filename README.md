@@ -123,7 +123,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Cadastro e Autenticação
 
--   `Cadastro de Usuários`: Permite que novos usuários se registrem na plataforma preenchendo os campos de email, nome, senha e confirmar senha. O campo de senha oferece a opção de exibir ou ocultar a senha digitada. Após o registro, o usuário é automaticamente redirecionado para a página de login.
+-   `Cadastro de Usuários`: Permite o registro de novos usuários na plataforma com campos para email, nome e senha. Após o cadastro, o usuário é redirecionado para a página de login.
 
     <details>
         <summary><b>:camera: Visualizar Demonstração</b></summary>
