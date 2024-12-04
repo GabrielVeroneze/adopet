@@ -209,8 +209,6 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Definições de Tipos`: Utiliza `interfaces` e `type aliases` para definir a estrutura e os tipos de dados, garantindo a segurança e a integridade do código.
 
--   `Interfaces Globais`: Utiliza interfaces globais para definir contratos de tipos consistentes em toda a aplicação.
-
 -   `Basic Types`: Utiliza tipos básicos como `string`, `number`, `boolean`, entre outros, para representar dados simples e garantir a integridade dos mesmos em toda a aplicação.
 
 -   `Operadores de Tipo`: Utiliza Optional Chaining `?` e Non-null Assertion Operator `!` para lidar com tipos opcionais e evitar erros de acesso a propriedades nulas.
