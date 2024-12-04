@@ -219,7 +219,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 ### Roteamento com React Router
 
--   `Configuração de Rotas`: Utiliza `BrowserRouter`, `Routes` e `Route` para definir e gerenciar rotas na aplicação.
+-   `Configuração de Rotas`: Utiliza `BrowserRouter` para controlar a navegação, `Routes` para organizar as rotas e `Route` para associar caminhos aos componentes.
 
 -   `Rotas Aninhadas e Privadas`: Implementa rotas aninhadas para organizar o layout da aplicação e rotas privadas para controle de acesso.
 
