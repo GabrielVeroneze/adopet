@@ -223,7 +223,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Rotas Aninhadas e Privadas`: Implementa rotas aninhadas para organizar o layout da aplicação e rotas privadas para controle de acesso.
 
--   `Navegação`: Utiliza os componentes `Link` e `Navigate` para navegação entre diferentes páginas da aplicação.
+-   `Navegação`: Utiliza os componentes `Link` e `Navigate` para realizar a navegação e o redirecionamento entre diferentes páginas da aplicação.
 
 -   `Navegação Programática`: Utiliza o hook `useNavigate` para realizar navegação programática dentro dos componentes.
 
