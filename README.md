@@ -257,7 +257,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Refinamento de Validações`: Utiliza o `z.refine` para criar validações personalizadas, adaptadas a critérios específicos definidos na aplicação.
 
--   `Mensagens de Erro`: Configura mensagens de erro detalhadas e totalmente personalizadas utilizando o atributo `message` nos esquemas definidos com Zod.
+-   `Mensagens de Erro`: Configura mensagens de erro detalhadas e personalizadas utilizando o atributo `message` nos esquemas definidos com Zod.
 
 -   `Inferência de Tipos`: Utiliza `z.infer` para inferir automaticamente os tipos de dados com base nos esquemas de validação definidos.
 
