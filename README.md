@@ -255,7 +255,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Expressões Regulares`: Utiliza `z.regex` para validar strings usando expressões regulares, permitindo validações precisas como formatos de telefone, senha, entre outros.
 
--   `Refinamento de Validações`: Utiliza `z.refine` para criar validações customizadas baseadas em critérios específicos.
+-   `Refinamento de Validações`: Utiliza o `z.refine` para criar validações personalizadas, adaptadas a critérios específicos definidos na aplicação.
 
 -   `Mensagens de Erro`: Personaliza mensagens de erro usando o atributo `message` em esquemas Zod.
 
