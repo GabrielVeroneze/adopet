@@ -259,7 +259,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Mensagens de Erro`: Configura mensagens de erro detalhadas e totalmente personalizadas utilizando o atributo `message` nos esquemas definidos com Zod.
 
--   `Inferência de Tipos`: Utiliza `z.infer` para inferir automaticamente tipos a partir dos esquemas de validação.
+-   `Inferência de Tipos`: Utiliza `z.infer` para inferir automaticamente os tipos de dados com base nos esquemas de validação definidos.
 
 ### Comunicação com API via Axios
 
