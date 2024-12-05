@@ -245,7 +245,7 @@ A página de perfil é onde os usuários podem visualizar e editar suas informa�
 
 -   `Validação com formState`: Utiliza o `formState` para controlar os estados de validação e exibir mensagens de erro aos usuários.
 
--   `Reset e Watch`: Implementa `reset` para limpar dados de formulários e `watch` para observar mudanças nos campos.
+-   `Reset e Watch`: Utiliza `reset` para redefinir e limpar os dados dos formulários e `watch` para acompanhar e monitorar alterações nos campos.
 
 -   `Integração com Zod`: Utiliza `zodResolver` para integrar validação de formulários com o Zod, uma biblioteca de validação de esquemas.
 
