@@ -1,9 +1,9 @@
 import { createContext } from 'react'
-import { IUsuario } from '@/types/IUsuario'
+import { Usuario } from '@/types/Usuario'
 
 interface UsuarioContextType {
-    usuario: IUsuario | null
-    setUsuario: React.Dispatch<React.SetStateAction<IUsuario | null>>
+    usuario: Usuario | null
+    setUsuario: React.Dispatch<React.SetStateAction<Usuario | null>>
 }
 
 const defaultValue: UsuarioContextType = {

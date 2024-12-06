@@ -1,4 +1,4 @@
-import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
+import { CampoDeEntrada } from '@/types/CampoDeEntrada'
 import { Entrada, Wrapper } from './styled'
 import LabelCampo from '@/components/LabelCampo'
 
@@ -8,7 +8,7 @@ const CampoTexto = ({
     label,
     placeholder,
     register,
-}: ICampoDeEntrada) => {
+}: CampoDeEntrada) => {
     return (
         <Wrapper>
             <LabelCampo htmlFor={id}>{label}</LabelCampo>

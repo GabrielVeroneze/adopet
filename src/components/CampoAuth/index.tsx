@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { ICampoDeEntrada } from '@/types/ICampoDeEntrada'
+import { CampoDeEntrada } from '@/types/CampoDeEntrada'
 import { BotaoVisibilidade, CampoWrapper, Entrada, Rotulo } from './styled'
 
 const CampoAuth = ({
@@ -8,7 +8,7 @@ const CampoAuth = ({
     label,
     placeholder,
     register,
-}: ICampoDeEntrada) => {
+}: CampoDeEntrada) => {
     const [exibirSenha, setExibirSenha] = useState<boolean>(false)
 
     const tipoInput = type === 'password' && exibirSenha ? 'text' : type

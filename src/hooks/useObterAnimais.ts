@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import { jsonServerApi } from '@/services/api'
-import { IAnimais } from '@/types/IAnimais'
+import { Animais } from '@/types/Animais'
 
 export const useObterAnimais = () => {
-    const [animaisDados, setAnimaisDados] = useState<IAnimais[]>([])
+    const [animaisDados, setAnimaisDados] = useState<Animais[]>([])
 
     useEffect(() => {
         carregarAnimais()
@@ -11,7 +11,7 @@ export const useObterAnimais = () => {
 
     const carregarAnimais = () => {
         jsonServerApi
-            .get<IAnimais[]>('animais')
+            .get<Animais[]>('animais')
             .then(resposta => {
                 setAnimaisDados(resposta.data)
             })

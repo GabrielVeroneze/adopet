@@ -1,6 +1,6 @@
-import { ITamanhos } from '@/types/ITamanhos'
+import { Tamanhos } from '@/types/Tamanhos'
 
-const tamanhos: ITamanhos = {
+const tamanhos: Tamanhos = {
     mobileSmall: '375px',
     mobile: '600px',
     tablet: '768px',

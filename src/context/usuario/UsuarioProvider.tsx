@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { useAutenticacao } from '@/hooks/useAutenticacao'
 import { getTokenLocalStorage } from '@/utilities/tokenLocalStorage'
-import { IUsuario } from '@/types/IUsuario'
+import { Usuario } from '@/types/Usuario'
 import { UsuarioContext } from './UsuarioContext'
 
 interface UsuarioProviderProps {
@@ -9,7 +9,7 @@ interface UsuarioProviderProps {
 }
 
 export const UsuarioProvider = ({ children }: UsuarioProviderProps) => {
-    const [usuario, setUsuario] = useState<IUsuario | null>(null)
+    const [usuario, setUsuario] = useState<Usuario | null>(null)
     const { validarToken } = useAutenticacao()
 
     useEffect(() => {

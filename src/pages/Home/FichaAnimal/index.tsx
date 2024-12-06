@@ -1,8 +1,8 @@
 import { formatarCaracteristicas } from '@/utilities/formatarCaracteristicas'
-import { IAnimais } from '@/types/IAnimais'
+import { Animais } from '@/types/Animais'
 import { Contato, Endereco, Imagem, Info, Item, Nome } from './styled'
 
-const FichaAnimal = (props: IAnimais) => {
+const FichaAnimal = (props: Animais) => {
     return (
         <Item>
             <Imagem src={props.imagem} alt={`Foto de ${props.nome}`} />

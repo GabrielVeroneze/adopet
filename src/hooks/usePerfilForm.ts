@@ -6,7 +6,7 @@ import { useUsuario } from '@/context/usuario/useUsuario'
 import { jsonServerApi } from '@/services/api'
 import { converterBase64EmFile, converterImagemEmBase64 } from '@/utilities/converterImagem'
 import { notificarUsuario } from '@/utilities/mostrarNotificacao'
-import { IUsuario } from '@/types/IUsuario'
+import { Usuario } from '@/types/Usuario'
 
 export const usePerfilForm = () => {
     const { usuario, setUsuario } = useUsuario()
@@ -35,7 +35,7 @@ export const usePerfilForm = () => {
         const fotoFormatada = await converterImagemEmBase64(dados.foto)
 
         jsonServerApi
-            .patch<IUsuario>(`/usuarios/${usuario!.id}`, {
+            .patch<Usuario>(`/usuarios/${usuario!.id}`, {
                 perfil: {
                     ...dados,
                     foto: fotoFormatada,

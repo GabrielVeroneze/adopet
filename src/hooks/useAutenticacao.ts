@@ -2,13 +2,13 @@ import { useCallback } from 'react'
 import { jsonServerApi } from '@/services/api'
 import { useUsuario } from '@/context/usuario/useUsuario'
 import { setTokenLocalStorage } from '@/utilities/tokenLocalStorage'
-import { IUsuario } from '@/types/IUsuario'
+import { Usuario } from '@/types/Usuario'
 
 export const useAutenticacao = () => {
     const { setUsuario } = useUsuario()
 
-    const fazerCadastro = async ({ nome, email, senha }: IUsuario) => {
-        const resposta = await jsonServerApi.post<IUsuario>('/usuarios', {
+    const fazerCadastro = async ({ nome, email, senha }: Usuario) => {
+        const resposta = await jsonServerApi.post<Usuario>('/usuarios', {
             id: crypto.randomUUID(),
             nome,
             email,
@@ -18,8 +18,8 @@ export const useAutenticacao = () => {
         return resposta.status === 201
     }
 
-    const fazerLogin = async ({ email, senha }: IUsuario) => {
-        const resposta = await jsonServerApi.get<IUsuario[]>(
+    const fazerLogin = async ({ email, senha }: Usuario) => {
+        const resposta = await jsonServerApi.get<Usuario[]>(
             `/usuarios?email=${email}&senha=${senha}`
         )
 
@@ -36,7 +36,7 @@ export const useAutenticacao = () => {
     }
 
     const validarToken = useCallback(async (token: string) => {
-        const resposta = await jsonServerApi.get<IUsuario[]>(
+        const resposta = await jsonServerApi.get<Usuario[]>(
             `/usuarios?id=${token}`
         )
 
