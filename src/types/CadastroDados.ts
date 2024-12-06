@@ -1,4 +1,4 @@
-export interface ICadastroDados {
+export interface CadastroDados {
     email: string
     nome: string
     senha: string

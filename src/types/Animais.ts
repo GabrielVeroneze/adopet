@@ -1,4 +1,4 @@
-export interface IAnimais {
+export interface Animais {
     id: number
     imagem: string
     nome: string

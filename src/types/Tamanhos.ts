@@ -1,4 +1,4 @@
-export interface ITamanhos {
+export interface Tamanhos {
     mobileSmall: string
     mobile: string
     tablet: string
