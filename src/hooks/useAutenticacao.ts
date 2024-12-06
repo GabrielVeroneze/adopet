@@ -1,14 +1,14 @@
 import { useCallback } from 'react'
-import { jsonServerApi } from '@/services/api'
 import { useUsuario } from '@/context/usuario/useUsuario'
 import { setTokenLocalStorage } from '@/utilities/tokenLocalStorage'
 import { Usuario } from '@/types/Usuario'
+import api from '@/services/api'
 
 export const useAutenticacao = () => {
     const { setUsuario } = useUsuario()
 
     const fazerCadastro = async ({ nome, email, senha }: Usuario) => {
-        const resposta = await jsonServerApi.post<Usuario>('/usuarios', {
+        const resposta = await api.post<Usuario>('/usuarios', {
             id: crypto.randomUUID(),
             nome,
             email,
@@ -19,7 +19,7 @@ export const useAutenticacao = () => {
     }
 
     const fazerLogin = async ({ email, senha }: Usuario) => {
-        const resposta = await jsonServerApi.get<Usuario[]>(
+        const resposta = await api.get<Usuario[]>(
             `/usuarios?email=${email}&senha=${senha}`
         )
 
@@ -36,7 +36,7 @@ export const useAutenticacao = () => {
     }
 
     const validarToken = useCallback(async (token: string) => {
-        const resposta = await jsonServerApi.get<Usuario[]>(
+        const resposta = await api.get<Usuario[]>(
             `/usuarios?id=${token}`
         )
 
