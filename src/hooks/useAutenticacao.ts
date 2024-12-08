@@ -1,33 +1,23 @@
-import { useCallback } from 'react'
 import { useUsuario } from '@/context/usuario/useUsuario'
+import { cadastrarUsuario, logarUsuario, validarUsuario } from '@/services/autenticacao'
 import { setTokenLocalStorage } from '@/utilities/tokenLocalStorage'
 import { Usuario } from '@/types/Usuario'
-import api from '@/services/api'
 
 export const useAutenticacao = () => {
     const { setUsuario } = useUsuario()
 
     const fazerCadastro = async ({ nome, email, senha }: Usuario) => {
-        const resposta = await api.post<Usuario>('/usuarios', {
-            id: crypto.randomUUID(),
-            nome,
-            email,
-            senha,
-        })
+        const statusCadastro = await cadastrarUsuario({ nome, email, senha })
 
-        return resposta.status === 201
+        return statusCadastro === 201
     }
 
     const fazerLogin = async ({ email, senha }: Usuario) => {
-        const resposta = await api.get<Usuario[]>(
-            `/usuarios?email=${email}&senha=${senha}`
-        )
+        const dadosUsuario = await logarUsuario({ email, senha })
 
-        const usuario = resposta.data[0]
-
-        if (usuario) {
-            setTokenLocalStorage(usuario.id!)
-            setUsuario(usuario)
+        if (dadosUsuario) {
+            setTokenLocalStorage(dadosUsuario.id!)
+            setUsuario(dadosUsuario)
 
             return true
         }
@@ -35,13 +25,11 @@ export const useAutenticacao = () => {
         return false
     }
 
-    const validarToken = useCallback(async (token: string) => {
-        const resposta = await api.get<Usuario[]>(
-            `/usuarios?id=${token}`
-        )
+    const validarToken = async (token: string) => {
+        const dados = await validarUsuario(token)
 
-        return resposta.data[0]
-    }, [])
+        return dados
+    }
 
     return {
         fazerCadastro,
