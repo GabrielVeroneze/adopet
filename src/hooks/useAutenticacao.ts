@@ -1,3 +1,4 @@
+import { useCallback } from 'react'
 import { useUsuario } from '@/context/usuario/useUsuario'
 import { cadastrarUsuario, logarUsuario, validarUsuario } from '@/services/autenticacao'
 import { setTokenLocalStorage } from '@/utilities/tokenLocalStorage'
@@ -25,11 +26,11 @@ export const useAutenticacao = () => {
         return false
     }
 
-    const validarToken = async (token: string) => {
+    const validarToken = useCallback(async (token: string) => {
         const dados = await validarUsuario(token)
 
         return dados
-    }
+    }, [])
 
     return {
         fazerCadastro,
