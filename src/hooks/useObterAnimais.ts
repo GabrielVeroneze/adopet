@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
+import { buscarAnimais } from '@/services/animais'
 import { Animais } from '@/types/Animais'
-import api from '@/services/api'
 
 export const useObterAnimais = () => {
     const [animaisDados, setAnimaisDados] = useState<Animais[]>([])
@@ -9,12 +9,15 @@ export const useObterAnimais = () => {
         carregarAnimais()
     }, [])
 
-    const carregarAnimais = () => {
-        api
-            .get<Animais[]>('animais')
-            .then(resposta => {
-                setAnimaisDados(resposta.data)
-            })
+    const carregarAnimais = async () => {
+        try {
+            const animaisObtidos = await buscarAnimais()
+            setAnimaisDados(animaisObtidos)
+        } catch (erro) {
+            if (erro instanceof Error) {
+                console.log(erro.message)
+            }
+        }
     }
 
     return {
