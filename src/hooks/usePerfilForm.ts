@@ -31,13 +31,15 @@ export const usePerfilForm = () => {
     }, [usuario, reset])
 
     const salvar = async (dados: PerfilSchemaType) => {
+        if (!usuario) return
+
         const novosDadosPerfil = {
             ...dados,
             foto: await converterImagemEmBase64(dados.foto),
         }
 
         try {
-            const usuarioAtualizado = await atualizarPerfil(usuario.id, novosDadosPerfil)
+            const usuarioAtualizado = await atualizarPerfil(usuario.id!, novosDadosPerfil)
 
             setUsuario(usuarioAtualizado)
             notificarUsuario('success', 'Perfil atualizado com sucesso')
