@@ -1,14 +1,16 @@
 import api from '@/services/api'
 import { Usuario } from '@/types/Usuario'
 
-export async function cadastrarUsuario({ nome, email, senha }: Usuario): Promise<void> {
+export async function cadastrarUsuario({ nome, email, senha }: Usuario): Promise<number> {
     try {
-        await api.post<Usuario>('/usuarios', {
+        const resposta = await api.post<Usuario>('/usuarios', {
             id: crypto.randomUUID(),
             nome,
             email,
             senha,
         })
+
+        return resposta.status
     } catch {
         throw new Error('Erro ao cadastrar o usuário.')
     }
