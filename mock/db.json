@@ -3,7 +3,7 @@
   "animais": [
     {
       "id": 1,
-      "imagem": "src/assets/images/animais/dunga.png",
+      "imagem": "/assets/images/animais/dunga.png",
       "nome": "Dunga",
       "idade": "2 anos",
       "porte": "pequeno",
@@ -16,7 +16,7 @@
     },
     {
       "id": 2,
-      "imagem": "src/assets/images/animais/felicia.png",
+      "imagem": "/assets/images/animais/felicia.png",
       "nome": "Felícia",
       "idade": "3 meses",
       "porte": "pequeno",
@@ -29,7 +29,7 @@
     },
     {
       "id": 3,
-      "imagem": "src/assets/images/animais/sirius.png",
+      "imagem": "/assets/images/animais/sirius.png",
       "nome": "Sirius",
       "idade": "6 meses",
       "porte": "grande",
@@ -42,7 +42,7 @@
     },
     {
       "id": 4,
-      "imagem": "src/assets/images/animais/fiona.png",
+      "imagem": "/assets/images/animais/fiona.png",
       "nome": "Fiona",
       "idade": "3 anos",
       "porte": "pequeno",
@@ -55,7 +55,7 @@
     },
     {
       "id": 5,
-      "imagem": "src/assets/images/animais/sid.png",
+      "imagem": "/assets/images/animais/sid.png",
       "nome": "Sid",
       "idade": "8 meses",
       "porte": "médio/grande",
@@ -68,7 +68,7 @@
     },
     {
       "id": 6,
-      "imagem": "src/assets/images/animais/yoda.png",
+      "imagem": "/assets/images/animais/yoda.png",
       "nome": "Yoda",
       "idade": "1 ano",
       "porte": "médio",
@@ -81,7 +81,7 @@
     },
     {
       "id": 7,
-      "imagem": "src/assets/images/animais/lua.png",
+      "imagem": "/assets/images/animais/lua.png",
       "nome": "Lua",
       "idade": "6 meses",
       "porte": "médio",
@@ -94,7 +94,7 @@
     },
     {
       "id": 8,
-      "imagem": "src/assets/images/animais/amora.png",
+      "imagem": "/assets/images/animais/amora.png",
       "nome": "Amora",
       "idade": "45 dias",
       "porte": "grande",
@@ -107,7 +107,7 @@
     },
     {
       "id": 9,
-      "imagem": "src/assets/images/animais/zelda.png",
+      "imagem": "/assets/images/animais/zelda.png",
       "nome": "Zelda",
       "idade": "5 meses",
       "porte": "médio",
